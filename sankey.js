@@ -32,8 +32,9 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
   );
   const getRank = (name) => (name === "Exhausted" ? 9999 : (candidateRank[name] ?? 9998));
 
-  // Candidate color palette
-  const candidateNames = [...new Set(rawNodes.map((n) => n.name).filter((n) => n !== "Exhausted"))];
+  // Candidate color palette — sorted by first-round votes descending so top candidates get distinct colors
+  const candidateNames = [...new Set(rawNodes.map((n) => n.name).filter((n) => n !== "Exhausted"))]
+    .sort((a, b) => (round1Tallies[b] || 0) - (round1Tallies[a] || 0));
   const colorPalette = [
     "#4e8ede", "#e07b39", "#5ab56e", "#c45ec4", "#d4a017",
     "#e05c5c", "#40b9c2", "#9a7dd1", "#b5a040", "#58b09c",
@@ -86,6 +87,32 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     links: sankeyInputLinks,
   });
 
+  // Reorder link entry/exit points so redistributed votes flow in from the closest side.
+  // Pass 1 — target side: links from above sources stack at top, from below at bottom.
+  sankeyNodes.forEach((node) => {
+    if (!node.targetLinks.length) return;
+    node.targetLinks.sort((a, b) =>
+      (a.source.y0 + a.source.y1) - (b.source.y0 + b.source.y1)
+    );
+    let y = node.y0;
+    node.targetLinks.forEach((link) => {
+      link.y1 = y + link.width / 2;
+      y += link.width;
+    });
+  });
+  // Pass 2 — source side: links to targets above exit from top, to targets below from bottom.
+  sankeyNodes.forEach((node) => {
+    if (!node.sourceLinks.length) return;
+    node.sourceLinks.sort((a, b) =>
+      (a.target.y0 + a.target.y1) - (b.target.y0 + b.target.y1)
+    );
+    let y = node.y0;
+    node.sourceLinks.forEach((link) => {
+      link.y0 = y + link.width / 2;
+      y += link.width;
+    });
+  });
+
   // Build SVG
   const svg = container
     .append("svg")
@@ -102,6 +129,19 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     stageXPos[stage] = d3.mean(nodesInStage, (n) => (n.x0 + n.x1) / 2);
   });
 
+  // Decide which stage labels to show: always Round 1 and Final; greedily insert others without overlap
+  const minLabelSpacing = 72; // approximate px width of "ROUND XX" at 12px
+  const visibleStageLabels = new Set([stageKeys[0], numStages]);
+  let lastShownX = stageXPos[stageKeys[0]];
+  for (let i = 1; i < stageKeys.length - 1; i++) {
+    const stage = stageKeys[i];
+    const x = stageXPos[stage];
+    if (x - lastShownX >= minLabelSpacing && stageXPos[numStages] - x >= minLabelSpacing) {
+      visibleStageLabels.add(stage);
+      lastShownX = x;
+    }
+  }
+
   g.selectAll(".stage-label")
     .data(stageKeys)
     .join("text")
@@ -113,7 +153,10 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     .attr("fill", "var(--text-dim)")
     .attr("font-weight", "600")
     .attr("letter-spacing", "0.08em")
-    .text((stage) => stage === numStages ? "FINAL" : `ROUND ${stage}`);
+    .text((stage) => {
+      if (!visibleStageLabels.has(stage)) return "";
+      return stage === numStages ? "FINAL" : `ROUND ${stage}`;
+    });
 
   // Links
   const linkPathGen = d3.sankeyLinkHorizontal();
@@ -128,10 +171,18 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     .attr("stroke-width", (d) => Math.max(1, d.width))
     .attr("stroke-opacity", 0.32)
     .style("pointer-events", "visibleStroke")
-    .on("mouseenter", function () { d3.select(this).attr("stroke-opacity", 0.65); })
-    .on("mouseleave", function () { d3.select(this).attr("stroke-opacity", 0.32); })
-    .append("title")
-    .text((d) => `${d.source.name} → ${d.target.name}: ${d3.format(",d")(d.rawValue)} votes`);
+    .on("mouseenter", function (event, d) {
+      d3.select(this).attr("stroke-opacity", 0.65);
+      tooltip
+        .html(`<strong>${formatPersonName(d.source.name)} → ${formatPersonName(d.target.name)}</strong><br>${d3.format(",d")(d.rawValue)} votes`)
+        .style("opacity", 1);
+      positionTooltip(event);
+    })
+    .on("mousemove", function (event) { positionTooltip(event); })
+    .on("mouseleave", function () {
+      d3.select(this).attr("stroke-opacity", 0.32);
+      hideTooltip();
+    });
 
   // Node rectangles
   const visibleNodes = sankeyNodes;
@@ -148,11 +199,25 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     .attr("fill", (d) => getNodeColor(d.name))
     .attr("rx", 2)
     .attr("opacity", (d) => (d.name === "Exhausted" ? 0.45 : 0.88))
-    .append("title")
-    .text((d) => {
+    .on("mouseenter", function (event, d) {
+      d3.select(this).attr("opacity", 1);
       const roundData = rounds.find((r) => r.stage === d.stage);
       const votes = roundData?.tallies?.[d.name];
-      return votes != null ? `${d.name}: ${d3.format(",d")(votes)} votes` : d.name;
+      const roundLabel = d.stage === numStages ? "Final" : `Round ${d.stage}`;
+      const isExhaustedNode = d.name === "Exhausted";
+      tooltip
+        .html(votes != null
+          ? isExhaustedNode
+            ? `<strong>Exhausted: ${d3.format(",d")(votes)} votes</strong><br><span style="font-size:11px;color:var(--text-dim)">Ballots with no remaining ranked candidates — they cannot transfer further.</span>`
+            : `<strong>${formatPersonName(d.name)}</strong><br>${roundLabel}: ${d3.format(",d")(votes)} votes`
+          : `<strong>${formatPersonName(d.name)}</strong>`)
+        .style("opacity", 1);
+      positionTooltip(event);
+    })
+    .on("mousemove", function (event) { positionTooltip(event); })
+    .on("mouseleave", function (_event, d) {
+      d3.select(this).attr("opacity", d.name === "Exhausted" ? 0.45 : 0.88);
+      hideTooltip();
     });
 
   // Node labels: first stage on left, last stage on right
@@ -192,7 +257,9 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     // Exhausted in intermediate stages gets no name (count alone is enough)
     if (isFirst || isLast) {
       const prefix = isWinner ? "★ " : "";
-      const lines = wrapName(prefix + d.name, 14);
+      const nodeVotes = rounds.find((r) => r.stage === d.stage)?.tallies?.[d.name];
+      const wrapLimit = (nodeVotes != null && nodeVotes < 3000) ? Infinity : 14;
+      const lines = wrapName(prefix + formatPersonName(d.name), wrapLimit);
       const anchorY = midY - (isLast ? 8 : 0);
       const startY = anchorY - (lines.length - 1) * lineH / 2;
 
@@ -217,7 +284,8 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
       const votes = roundData?.tallies?.[d.name];
       if (votes != null) {
         const namePrefix = isWinner ? "★ " : "";
-        const lines = isLast ? wrapName(namePrefix + d.name, 14) : [];
+        const voteWrapLimit = (votes != null && votes < 1000) ? Infinity : 14;
+        const lines = isLast ? wrapName(namePrefix + formatPersonName(d.name), voteWrapLimit) : [];
         const anchorY = midY - (isLast ? 8 : 0);
         const bottomOfName = anchorY + (lines.length - 1) * lineH / 2;
         labelLayer
@@ -355,6 +423,16 @@ function renderDonutChart(container, election, widthOverride) {
   // Center label
   g.append("text")
     .attr("text-anchor", "middle")
+    .attr("y", -innerRadius * 0.42)
+    .attr("font-size", "9px")
+    .attr("font-family", "var(--font-sans, sans-serif)")
+    .attr("font-weight", "600")
+    .attr("letter-spacing", "0.08em")
+    .attr("fill", "var(--text-dim)")
+    .text("FIRST ROUND MAJORITY");
+
+  g.append("text")
+    .attr("text-anchor", "middle")
     .attr("y", -innerRadius * 0.25)
     .attr("font-size", "11px")
     .attr("font-family", "var(--font-sans, sans-serif)")
@@ -422,6 +500,111 @@ function findCycleTriple(beats) {
     }
   }
   return null;
+}
+
+function renderCondorcetWinnerPanel(container, election) {
+  const match = election.notes.match(/Condorcet winner:\s*([^.]+)/);
+  const condorcetWinner = match ? match[1].trim() : null;
+
+  container.append("h3").attr("class", "cycle-panel-title").text("The Condorcet Winner");
+  container.append("p").attr("class", "cycle-panel-desc")
+    .text("This candidate would have beaten every other candidate in a head-to-head matchup, but was eliminated before the final round.");
+
+  if (!condorcetWinner) return;
+
+  const allCandidates = [...new Set(election.sankey.nodes.map((n) => n.name))]
+    .filter((n) => n !== "Exhausted");
+  const opponents = allCandidates.filter((n) => n !== condorcetWinner);
+  const pv = election.pairwiseVotes;
+
+  const topPad = 22, bottomPad = 22, rowH = 62;
+  const w = 400;
+  const h = topPad + opponents.length * rowH + bottomPad;
+  const trunkX = 110;
+  const branchEndX = 262;
+  const oppNameX = 270;
+  const winnerCY = h / 2;
+
+  const oppRows = opponents.map((name, i) => ({
+    name,
+    y: topPad + i * rowH + rowH / 2,
+  }));
+  const topY = oppRows[0].y;
+  const bottomY = oppRows[oppRows.length - 1].y;
+
+  const svg = container.append("svg")
+    .attr("class", "cycle-fullscreen-svg")
+    .attr("viewBox", `0 0 ${w} ${h}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
+  svg.append("defs").append("marker")
+    .attr("id", "winner-arrow")
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 10).attr("refY", 0)
+    .attr("markerWidth", 7).attr("markerHeight", 7)
+    .attr("orient", "auto")
+    .append("path").attr("d", "M0,-5L10,0L0,5").attr("fill", COLORS.yellow);
+
+  // Horizontal leader from winner name to trunk
+  svg.append("line")
+    .attr("x1", trunkX - 10).attr("y1", winnerCY)
+    .attr("x2", trunkX).attr("y2", winnerCY)
+    .attr("stroke", COLORS.yellow).attr("stroke-width", 1.5).attr("stroke-opacity", 0.6);
+
+  // Vertical trunk spanning all opponent rows
+  if (opponents.length > 1) {
+    svg.append("line")
+      .attr("x1", trunkX).attr("y1", topY)
+      .attr("x2", trunkX).attr("y2", bottomY)
+      .attr("stroke", COLORS.yellow).attr("stroke-width", 1.5).attr("stroke-opacity", 0.6);
+  }
+
+  // Branches to each opponent
+  oppRows.forEach((opp) => {
+    const wVotes = pv?.[condorcetWinner]?.[opp.name];
+    const oVotes = pv?.[opp.name]?.[condorcetWinner];
+    const beatsText = (wVotes != null && oVotes != null)
+      ? `Beats, ${d3.format(",d")(wVotes)} to ${d3.format(",d")(oVotes)}`
+      : "Beats";
+
+    svg.append("line")
+      .attr("x1", trunkX).attr("y1", opp.y)
+      .attr("x2", branchEndX).attr("y2", opp.y)
+      .attr("stroke", COLORS.yellow).attr("stroke-width", 1.5).attr("stroke-opacity", 0.6)
+      .attr("marker-end", "url(#winner-arrow)");
+
+    svg.append("text")
+      .attr("x", (trunkX + branchEndX) / 2).attr("y", opp.y - 7)
+      .attr("text-anchor", "middle").attr("font-size", "10px")
+      .attr("fill", COLORS.yellow).attr("opacity", 0.85)
+      .text(beatsText);
+
+    svg.append("text")
+      .attr("x", oppNameX).attr("y", opp.y)
+      .attr("dominant-baseline", "middle").attr("font-size", "13px")
+      .attr("fill", "var(--text)").attr("font-weight", "500")
+      .text(formatPersonName(opp.name));
+  });
+
+  // Winner name — right-aligned into the trunk
+  const winnerWords = formatPersonName(condorcetWinner).split(" ");
+  const winnerLines = [];
+  let cur = "";
+  winnerWords.forEach((word) => {
+    const candidate = cur ? `${cur} ${word}` : word;
+    if (candidate.length > 12 && cur) { winnerLines.push(cur); cur = word; }
+    else { cur = candidate; }
+  });
+  if (cur) winnerLines.push(cur);
+
+  winnerLines.forEach((line, i) => {
+    svg.append("text")
+      .attr("x", trunkX - 14)
+      .attr("y", winnerCY + (i - (winnerLines.length - 1) / 2) * 17)
+      .attr("text-anchor", "end").attr("dominant-baseline", "middle")
+      .attr("font-size", "14px").attr("fill", COLORS.yellow).attr("font-weight", "600")
+      .text(line);
+  });
 }
 
 function renderCondorcetCycle(container, election) {
@@ -501,15 +684,26 @@ function renderCondorcetCycle(container, election) {
     // "Beats" label near the midpoint of the curve
     const lx = (startX + endX) / 2 - uy * curve * 1.4;
     const ly = (startY + endY) / 2 + ux * curve * 1.4;
-    svg.append("text")
-      .attr("x", lx)
-      .attr("y", ly)
+    const pvA = election.pairwiseVotes?.[s.label]?.[t.label];
+    const pvB = election.pairwiseVotes?.[t.label]?.[s.label];
+    const countStr = (pvA != null && pvB != null)
+      ? `${d3.format(",d")(pvA)} to ${d3.format(",d")(pvB)}` : null;
+    const beatsEl = svg.append("text")
       .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "middle")
       .attr("font-size", "12px")
       .attr("fill", COLORS.purple)
-      .attr("opacity", 0.75)
+      .attr("opacity", 0.75);
+    beatsEl.append("tspan")
+      .attr("x", lx).attr("y", ly - (countStr ? 6 : 0))
+      .attr("dominant-baseline", "middle")
       .text("Beats");
+    if (countStr) {
+      beatsEl.append("tspan")
+        .attr("x", lx).attr("dy", "1.3em")
+        .attr("dominant-baseline", "middle")
+        .attr("font-size", "10px")
+        .text(countStr);
+    }
   });
 
   // Node circles and labels
@@ -523,7 +717,7 @@ function renderCondorcetCycle(container, election) {
       .attr("stroke-width", 1.5);
 
     // Wrap name into two lines where possible (~14 chars per line)
-    const words = node.label.split(" ");
+    const words = formatPersonName(node.label).split(" ");
     const lines = [];
     let cur = "";
     words.forEach((w) => {
@@ -674,7 +868,7 @@ function buildElectionCardsHtml(jurisdiction) {
 
   return `
     <div class="elections-list-view">
-      <h3 class="jurisdiction-title">${jurisdiction.city}, ${jurisdiction.state}</h3>
+      <h3 class="jurisdiction-title">${jurisdiction.city}, ${stateName(jurisdiction.state)}</h3>
       <div class="elections-grid">
         ${cardsHtml}
       </div>
@@ -685,19 +879,23 @@ function buildElectionCardsHtml(jurisdiction) {
 function openSankeyView(jurisdiction, electionIndex) {
   const election = jurisdiction.elections[electionIndex];
 
-  sankeyFsTitle.text(`${election.year} ${formatOfficeLabel(election.office)} · ${jurisdiction.city}, ${jurisdiction.state}`);
+  sankeyFsTitle.text(`${election.year} ${formatOfficeLabel(election.office)} · ${jurisdiction.city}, ${stateName(jurisdiction.state)}`);
   sankeyFsCategory.text(LABELS[election.condorcet]).style("color", COLORS[election.condorcet]);
 
   sankeyFsBody.html("");
 
-  if (election.condorcet === "purple") {
+  if (election.condorcet === "purple" || election.condorcet === "yellow") {
     const split = sankeyFsBody.append("div").attr("class", "sankey-fs-split");
     const leftWrap = split.append("div").attr("class", "sankey-fs-split-left");
     const rightWrap = split.append("div").attr("class", "sankey-fs-split-right");
     const mapEl = document.getElementById("map-container");
     const sankeyWidth = Math.floor((mapEl.clientWidth || 960) * 0.6);
     renderSankeyDiagram(leftWrap, election, jurisdiction, sankeyWidth);
-    renderCondorcetCycle(rightWrap, election);
+    if (election.condorcet === "purple") {
+      renderCondorcetCycle(rightWrap, election);
+    } else {
+      renderCondorcetWinnerPanel(rightWrap, election);
+    }
   } else {
     const diagramWrap = sankeyFsBody.append("div").attr("class", "sankey-fs-diagram-wrap");
     renderSankeyDiagram(diagramWrap, election, jurisdiction);

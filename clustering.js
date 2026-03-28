@@ -13,7 +13,7 @@ function getBaseDotStrokeWidth() {
 }
 
 function getDotLabelFontSize(electionCount) {
-  return electionCount >= 100 ? 8 : 10;
+  return electionCount >= 100 ? 10 : 12;
 }
 
 function applyJurisdictionDotScale() {
@@ -37,8 +37,8 @@ function applyJurisdictionDotScale() {
 
   detailCityLayer
     .selectAll("text.city-name-label")
-    .attr("x", (d) => getDetailCityPosition(d).x + scaleForZoom(7))
-    .attr("y", (d) => getDetailCityPosition(d).y - scaleForZoom(2))
+    .attr("x", (d) => getLabelPosition(d).x)
+    .attr("y", (d) => getLabelPosition(d).y)
     .attr("font-size", scaleForZoom(10));
 }
 
@@ -46,10 +46,29 @@ function getDetailCityPosition(point) {
   return detailCityPositions.get(point.key) || { x: point.x, y: point.y };
 }
 
+function getLabelPosition(point) {
+  const dot = getDetailCityPosition(point);
+  const xGap = scaleForZoom(10);
+  const yGap = scaleForZoom(4);
+  const placement = labelPlacements.get(point.key);
+  if (placement === "bottomRight") {
+    return { x: dot.x + xGap, y: dot.y + scaleForZoom(10) + yGap };
+  }
+  const labelWidth = (point.city || "").length * scaleForZoom(6);
+  if (placement === "bottomLeft") {
+    return { x: dot.x - labelWidth - xGap, y: dot.y + scaleForZoom(10) + yGap };
+  }
+  if (placement === "topLeft") {
+    return { x: dot.x - labelWidth - xGap, y: dot.y - yGap };
+  }
+  return { x: dot.x + xGap, y: dot.y - yGap };
+}
+
 function updateDetailCityPositions() {
   const visiblePoints = jurisdictionPoints.filter((point) => activeFilters.has(point.category));
   const nodes = visiblePoints.map((point, index) => ({
     key: point.key,
+    city: point.city,
     ox: point.x,
     oy: point.y,
     x: point.x,
@@ -106,6 +125,54 @@ function updateDetailCityPositions() {
   }
 
   detailCityPositions = new Map(nodes.map((node) => [node.key, { x: node.x, y: node.y }]));
+
+  // Place labels right-to-left, preferring bottom-left when it avoids overlap
+  const k = currentTransform.k;
+  const fontSize = 10 / k;
+  const charWidth = 6 / k;
+  const xGap = 10 / k;
+  const yGap = 4 / k;
+
+  const placedRects = [];
+
+  function rectsOverlap(a, b) {
+    return a.x1 < b.x2 && a.x2 > b.x1 && a.y1 < b.y2 && a.y2 > b.y1;
+  }
+
+  const newLabelPlacements = new Map();
+  [...nodes].sort((a, b) => b.x - a.x).forEach((node) => {
+    const labelWidth = (node.city || "").length * charWidth;
+    const trRect = { x1: node.x + xGap, x2: node.x + xGap + labelWidth, y1: node.y - yGap - fontSize, y2: node.y - yGap };
+    const blRect = { x1: node.x - labelWidth - xGap, x2: node.x - xGap, y1: node.y + yGap, y2: node.y + fontSize + yGap };
+    const brRect = { x1: node.x + xGap, x2: node.x + xGap + labelWidth, y1: node.y + yGap, y2: node.y + fontSize + yGap };
+    const tlRect = { x1: node.x - labelWidth - xGap, x2: node.x - xGap, y1: node.y - yGap - fontSize, y2: node.y - yGap };
+    if (node.key === "Westbrook-ME") {
+      newLabelPlacements.set(node.key, "bottomRight");
+      placedRects.push(brRect);
+      return;
+    }
+    if (node.key === "Minnetonka-MN") {
+      newLabelPlacements.set(node.key, "bottomLeft");
+      placedRects.push(blRect);
+      return;
+    }
+    if (node.key === "St. Louis Park-MN") {
+      newLabelPlacements.set(node.key, "topLeft");
+      placedRects.push(tlRect);
+      return;
+    }
+    const trOverlaps = placedRects.some((r) => rectsOverlap(trRect, r));
+    const blOverlaps = placedRects.some((r) => rectsOverlap(blRect, r));
+    if (trOverlaps && !blOverlaps) {
+      newLabelPlacements.set(node.key, "bottomLeft");
+      placedRects.push(blRect);
+    } else {
+      newLabelPlacements.set(node.key, "topRight");
+      placedRects.push(trRect);
+    }
+  });
+
+  labelPlacements = newLabelPlacements;
 }
 
 // --- Clustering ---

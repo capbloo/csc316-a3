@@ -202,8 +202,8 @@ function renderDots() {
 
   detailGroups
     .select("text.city-name-label")
-    .attr("x", (d) => getDetailCityPosition(d).x + scaleForZoom(7))
-    .attr("y", (d) => getDetailCityPosition(d).y - scaleForZoom(2))
+    .attr("x", (d) => getLabelPosition(d).x)
+    .attr("y", (d) => getLabelPosition(d).y)
     .attr("font-size", scaleForZoom(10))
     .text((d) => d.city);
 
@@ -263,8 +263,8 @@ function updateDotVisibility() {
 
   detailCityLayer
     .selectAll("text.city-name-label")
-    .attr("x", (d) => getDetailCityPosition(d).x + scaleForZoom(7))
-    .attr("y", (d) => getDetailCityPosition(d).y - scaleForZoom(2));
+    .attr("x", (d) => getLabelPosition(d).x)
+    .attr("y", (d) => getLabelPosition(d).y);
 
   updateCityDotMode();
 }

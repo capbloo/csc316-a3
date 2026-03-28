@@ -366,6 +366,7 @@ for fp in files:
     category = classify(irv, plurality, cond)
     summary[category] += 1
     pairwise_ratios = build_pairwise_ratios(candidates, pairwise) if cond is None else None
+    pairwise_votes = {a: dict(pairwise[a]) for a in pairwise} if category in ("yellow", "purple") else None
     sankey = build_sankey(ballots)
 
     candidate_count = len(candidates)
@@ -382,6 +383,7 @@ for fp in files:
         "notes": note,
         "sankey": sankey,
         "pairwiseRatios": pairwise_ratios,
+        "pairwiseVotes": pairwise_votes,
     })
 
 jurisdictions = []

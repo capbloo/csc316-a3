@@ -38,6 +38,17 @@ function getJurisdictionKey(jurisdiction) {
   return `${jurisdiction.city}-${jurisdiction.state}`;
 }
 
+function stateName(abbr) {
+  return STATE_NAMES[abbr] || abbr;
+}
+
+function formatPersonName(name) {
+  return String(name || "")
+    .replace(/([A-Za-z])\.([A-Za-z])/g, "$1 $2")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // --- Stats & legend ---
 
 function renderStats() {
@@ -177,7 +188,7 @@ function buildJurisdictionViewHtml(jurisdiction) {
 
   return `
     <div class="tt-city" style="color:${COLORS[dotColor]}">${jurisdiction.city}</div>
-    <div class="tt-state">${jurisdiction.state} · ${jurisdiction.elections.length} election${jurisdiction.elections.length > 1 ? "s" : ""}${jurisdiction.isCluster ? ` · ${jurisdiction.clusterMembers.join(", ")}` : ""}</div>
+    <div class="tt-state">${stateName(jurisdiction.state)} · ${jurisdiction.elections.length} election${jurisdiction.elections.length > 1 ? "s" : ""}${jurisdiction.isCluster ? ` · ${jurisdiction.clusterMembers.join(", ")}` : ""}</div>
     ${showSourceFlags && sourceCities.length > 0 ? `<div class="source-flags">${sourceCities.map((city) => `<span class="source-flag">${city}</span>`).join("")}</div>` : ""}
     <div class="tt-counts">${countsHtml}</div>
   `;
@@ -197,7 +208,7 @@ function showElectionTooltip(event, jurisdiction, election) {
   tooltip
     .html(`
       <div class="tt-city" style="color:${COLORS[election.condorcet]}">${jurisdiction.city}</div>
-      <div class="tt-state">${jurisdiction.state} · ${LABELS[election.condorcet]}</div>
+      <div class="tt-state">${stateName(jurisdiction.state)} · ${LABELS[election.condorcet]}</div>
       <div class="tt-elections">
         <div class="tt-election-item">
           <span class="tt-dot" style="background:${COLORS[election.condorcet]}"></span>

@@ -84,6 +84,7 @@ let jurisdictionPoints = [];
 let focusedJurisdictionKey = null;
 let currentTransform = d3.zoomIdentity;
 let detailCityPositions = new Map();
+let labelPlacements = new Map(); // key -> "topRight" | "bottomLeft"
 let rawJurisdictionPoints = [];
 
 // Zoom behavior (callbacks defined in clustering.js / map.js — safe since only fired after full load)

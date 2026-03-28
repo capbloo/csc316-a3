@@ -11,7 +11,7 @@ window.JURISDICTIONS = [
     "elections": [
       {
         "year": 2022,
-        "office": "GovernorLieutenantGovernor",
+        "office": "Governor, Lieutenant Governor",
         "condorcet": "green",
         "notes": "IRV winner: Dunleavy/Dahlstrom. Plurality leader: Dunleavy/Dahlstrom. Condorcet winner: Dunleavy/Dahlstrom.",
         "sankey": {
@@ -58,7 +58,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -95,7 +96,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -139,7 +141,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -237,7 +240,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -274,7 +278,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -311,7 +316,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -348,7 +354,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -446,7 +453,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -483,7 +491,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -520,7 +529,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -618,7 +628,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -655,7 +666,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -692,7 +704,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -743,7 +756,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -780,7 +794,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -817,7 +832,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -854,7 +870,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -898,7 +915,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -935,7 +953,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -972,7 +991,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1016,7 +1036,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1196,7 +1217,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1233,7 +1255,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1263,7 +1286,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1361,7 +1385,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1459,7 +1484,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1503,7 +1529,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1533,7 +1560,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1631,7 +1659,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1682,7 +1711,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1719,7 +1749,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1749,7 +1780,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1779,7 +1811,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1816,7 +1849,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1853,7 +1887,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1883,7 +1918,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1920,7 +1956,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -1964,7 +2001,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2001,7 +2039,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2031,7 +2070,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2068,7 +2108,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2105,7 +2146,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2135,7 +2177,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2179,7 +2222,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2277,7 +2321,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2375,7 +2420,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2412,7 +2458,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2449,7 +2496,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2486,7 +2534,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2523,7 +2572,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2567,7 +2617,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2604,7 +2655,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2641,7 +2693,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2678,7 +2731,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2776,7 +2830,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2813,7 +2868,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2857,7 +2913,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2901,7 +2958,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2945,7 +3003,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -2982,11 +3041,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "US House Special",
+        "office": "USHouse Special",
         "condorcet": "yellow",
         "notes": "IRV winner: Peltola, Mary S.. Plurality leader: Peltola, Mary S.. Condorcet winner: Begich, Nick.",
         "sankey": {
@@ -3080,7 +3140,21 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": {
+          "Begich, Nick": {
+            "Palin, Sarah": 101402,
+            "Peltola, Mary S.": 88081
+          },
+          "Palin, Sarah": {
+            "Begich, Nick": 63790,
+            "Peltola, Mary S.": 86258
+          },
+          "Peltola, Mary S.": {
+            "Begich, Nick": 79585,
+            "Palin, Sarah": 91386
+          }
+        }
       },
       {
         "year": 2022,
@@ -3260,7 +3334,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -3440,7 +3515,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3519,7 +3595,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3563,7 +3640,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3600,7 +3678,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3637,7 +3716,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3674,7 +3754,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3711,7 +3792,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3748,7 +3830,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3792,7 +3875,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3829,7 +3913,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3859,7 +3944,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3896,7 +3982,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3940,7 +4027,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -3970,7 +4058,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4007,7 +4096,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4044,7 +4134,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4081,7 +4172,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4118,7 +4210,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4148,7 +4241,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4178,7 +4272,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4208,7 +4303,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4245,7 +4341,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4343,7 +4440,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4373,7 +4471,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4403,7 +4502,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4440,7 +4540,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4477,7 +4578,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4514,7 +4616,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4544,7 +4647,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4581,7 +4685,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4618,7 +4723,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4798,7 +4904,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -4835,7 +4942,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5015,7 +5123,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5052,7 +5161,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5082,7 +5192,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5180,7 +5291,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5217,7 +5329,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5315,7 +5428,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5352,7 +5466,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5389,7 +5504,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5426,7 +5542,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5456,7 +5573,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5554,7 +5672,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5652,7 +5771,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5689,7 +5809,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5726,7 +5847,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5824,7 +5946,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5868,7 +5991,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5905,7 +6029,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5949,7 +6074,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -5979,7 +6105,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -6159,7 +6286,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -6197,7 +6325,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -6248,7 +6377,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -6299,7 +6429,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -6343,7 +6474,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -6387,7 +6519,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -6431,7 +6564,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -6468,7 +6602,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -6505,7 +6640,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -6542,7 +6678,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -6614,7 +6751,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -6644,7 +6782,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -6688,7 +6827,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -6725,7 +6865,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -6905,7 +7046,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -7003,7 +7145,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -7054,7 +7197,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -7091,7 +7235,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -7135,7 +7280,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -7588,7 +7734,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -7625,7 +7772,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -7662,7 +7810,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -7842,7 +7991,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -7886,7 +8036,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -7930,7 +8081,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -7981,7 +8133,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -8161,7 +8314,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -8205,7 +8359,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -8249,7 +8404,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -8286,7 +8442,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -8337,7 +8494,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8374,7 +8532,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8418,7 +8577,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8462,7 +8622,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8499,7 +8660,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8679,7 +8841,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -8958,7 +9121,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -9064,7 +9228,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -9108,7 +9273,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -9296,7 +9462,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -9583,7 +9750,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -9862,7 +10030,39 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": {
+          "Andy Montroll": {
+            "Bob Kiss": 4068,
+            "Dan Smith": 4573,
+            "James Simpson": 6266,
+            "Kurt Wright": 4600
+          },
+          "Bob Kiss": {
+            "Andy Montroll": 3476,
+            "Dan Smith": 3945,
+            "James Simpson": 5516,
+            "Kurt Wright": 4316
+          },
+          "Dan Smith": {
+            "Andy Montroll": 2998,
+            "Bob Kiss": 3578,
+            "James Simpson": 5573,
+            "Kurt Wright": 3795
+          },
+          "James Simpson": {
+            "Andy Montroll": 591,
+            "Bob Kiss": 845,
+            "Dan Smith": 721,
+            "Kurt Wright": 1310
+          },
+          "Kurt Wright": {
+            "Andy Montroll": 3665,
+            "Bob Kiss": 4061,
+            "Dan Smith": 3972,
+            "James Simpson": 5271
+          }
+        }
       },
       {
         "year": 2023,
@@ -9899,7 +10099,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -9936,7 +10137,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -9966,7 +10168,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -10010,7 +10213,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -10047,7 +10251,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -10098,7 +10303,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -10204,7 +10410,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -10302,7 +10509,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -10408,7 +10616,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -10514,7 +10723,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -10702,7 +10912,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -10800,7 +11011,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -11829,7 +12041,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -12017,7 +12230,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -12197,7 +12411,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -12725,7 +12940,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -12823,7 +13039,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -12921,7 +13138,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -13019,7 +13237,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -13117,7 +13336,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -13215,7 +13435,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -13313,7 +13534,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -13411,7 +13633,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -13448,7 +13671,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -13556,11 +13780,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 1",
+        "office": "ParksBoardD1",
         "condorcet": "green",
         "notes": "IRV winner: Liz Wielinski. Plurality leader: Liz Wielinski. Condorcet winner: Liz Wielinski.",
         "sankey": {
@@ -13600,11 +13825,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 2",
+        "office": "ParksBoardD2",
         "condorcet": "green",
         "notes": "IRV winner: Jon Olson. Plurality leader: Jon Olson. Condorcet winner: Jon Olson.",
         "sankey": {
@@ -13637,11 +13863,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 3",
+        "office": "ParksBoardD3",
         "condorcet": "green",
         "notes": "IRV winner: Scott Vreeland. Plurality leader: Scott Vreeland. Condorcet winner: Scott Vreeland.",
         "sankey": {
@@ -13674,11 +13901,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 4",
+        "office": "ParksBoardD4",
         "condorcet": "green",
         "notes": "IRV winner: Anita Tabb. Plurality leader: Anita Tabb. Condorcet winner: Anita Tabb.",
         "sankey": {
@@ -13704,11 +13932,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 5",
+        "office": "ParksBoardD5",
         "condorcet": "green",
         "notes": "IRV winner: Carol Kummer. Plurality leader: Carol Kummer. Condorcet winner: Carol Kummer.",
         "sankey": {
@@ -13983,11 +14212,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
-        "office": "Parks Board District 6",
+        "office": "ParksBoardD6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -14163,7 +14393,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14214,7 +14445,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14258,7 +14490,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14309,7 +14542,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14353,7 +14587,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14411,7 +14646,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14448,7 +14684,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14499,7 +14736,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14621,7 +14859,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14900,7 +15139,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -14965,7 +15205,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -15009,7 +15250,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -15067,7 +15309,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -15118,7 +15361,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
@@ -15397,7 +15641,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
@@ -15577,7 +15822,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
@@ -15972,7 +16218,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
@@ -26641,11 +26888,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
-        "office": "Parks Board District 2",
+        "office": "ParksBoardD2",
         "condorcet": "green",
         "notes": "IRV winner: Jon Olson. Plurality leader: Jon Olson. Condorcet winner: Jon Olson.",
         "sankey": {
@@ -26678,11 +26926,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2013,
-        "office": "Parks Board District 6",
+        "office": "ParksBoardD6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -26715,7 +26964,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -26813,7 +27063,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -26864,7 +27115,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -26962,7 +27214,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27006,7 +27259,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27043,7 +27297,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27073,7 +27328,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27253,7 +27509,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27433,7 +27690,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27613,7 +27871,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27664,7 +27923,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27715,7 +27975,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27766,7 +28027,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -27946,7 +28208,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
@@ -30874,11 +31137,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 1",
+        "office": "ParksBoardD1",
         "condorcet": "green",
         "notes": "IRV winner: Chris Meyer. Plurality leader: Chris Meyer. Condorcet winner: Chris Meyer.",
         "sankey": {
@@ -30972,11 +31236,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 2",
+        "office": "ParksBoardD2",
         "condorcet": "green",
         "notes": "IRV winner: Kale Severson. Plurality leader: Kale Severson. Condorcet winner: Kale Severson.",
         "sankey": {
@@ -31009,11 +31274,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 3",
+        "office": "ParksBoardD3",
         "condorcet": "green",
         "notes": "IRV winner: AK Hassan. Plurality leader: AK Hassan. Condorcet winner: AK Hassan.",
         "sankey": {
@@ -31107,11 +31373,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 4",
+        "office": "ParksBoardD4",
         "condorcet": "green",
         "notes": "IRV winner: Jono Cowgill. Plurality leader: Jono Cowgill. Condorcet winner: Jono Cowgill.",
         "sankey": {
@@ -31144,11 +31411,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 5",
+        "office": "ParksBoardD5",
         "condorcet": "green",
         "notes": "IRV winner: Steffanie Musich. Plurality leader: Steffanie Musich. Condorcet winner: Steffanie Musich.",
         "sankey": {
@@ -31188,11 +31456,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2017,
-        "office": "Parks Board District 6",
+        "office": "ParksBoardD6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -31368,7 +31637,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -32816,7 +33086,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -32996,7 +33267,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -33391,7 +33663,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -33449,7 +33722,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -33493,7 +33767,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -33551,7 +33826,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -33861,6 +34137,38 @@ window.JURISDICTIONS = [
             "Robin Wonsley Worlobah": 0.4988,
             "Tom Anderson": 0.7318
           }
+        },
+        "pairwiseVotes": {
+          "Cam Gordon": {
+            "Guy T Gaskin": 5359,
+            "Robin Wonsley Worlobah": 3708,
+            "Tom Anderson": 4878,
+            "Yusra Arab": 4099
+          },
+          "Guy T Gaskin": {
+            "Cam Gordon": 771,
+            "Robin Wonsley Worlobah": 837,
+            "Tom Anderson": 693,
+            "Yusra Arab": 727
+          },
+          "Robin Wonsley Worlobah": {
+            "Cam Gordon": 3635,
+            "Guy T Gaskin": 5120,
+            "Tom Anderson": 4661,
+            "Yusra Arab": 4056
+          },
+          "Tom Anderson": {
+            "Cam Gordon": 2692,
+            "Guy T Gaskin": 3431,
+            "Robin Wonsley Worlobah": 2650,
+            "Yusra Arab": 1878
+          },
+          "Yusra Arab": {
+            "Cam Gordon": 4324,
+            "Guy T Gaskin": 5804,
+            "Robin Wonsley Worlobah": 4037,
+            "Tom Anderson": 5123
+          }
         }
       },
       {
@@ -34041,7 +34349,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34085,7 +34394,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34608,7 +34918,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34645,7 +34956,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34696,7 +35008,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34733,7 +35046,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -34812,7 +35126,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -37782,7 +38097,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -37812,7 +38128,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -37910,7 +38227,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -37954,7 +38272,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -37991,7 +38310,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -38035,7 +38355,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -38215,7 +38536,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38252,7 +38574,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38303,7 +38626,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38340,7 +38664,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38384,7 +38709,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38435,7 +38761,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38472,7 +38799,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38509,7 +38837,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38560,7 +38889,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38604,7 +38934,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38784,7 +39115,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -38882,7 +39214,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39062,7 +39395,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39099,7 +39433,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -39165,7 +39500,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -39386,7 +39722,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -39423,7 +39760,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39603,7 +39941,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39640,7 +39979,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39738,7 +40078,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -39836,7 +40177,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -39881,7 +40223,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -40160,7 +40503,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -41608,7 +41952,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -42136,7 +42481,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -42234,7 +42580,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -42455,7 +42802,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -43242,7 +43590,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -43920,7 +44269,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -44390,7 +44740,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -44488,7 +44839,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -44546,7 +44898,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -44941,7 +45294,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -45561,7 +45915,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -45612,7 +45967,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -45649,7 +46005,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -46327,7 +46684,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -46722,7 +47080,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -46759,7 +47118,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -47437,7 +47797,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -47495,7 +47856,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -47757,7 +48119,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -48285,7 +48648,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -48336,7 +48700,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -49014,7 +49379,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -51218,7 +51584,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -52533,7 +52900,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -52577,7 +52945,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -53422,7 +53791,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -53684,7 +54054,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -53721,7 +54092,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -53765,7 +54137,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -54160,7 +54533,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -54378,7 +54752,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -54429,7 +54804,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -54957,7 +55333,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -55236,7 +55613,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -55406,7 +55784,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -55743,7 +56122,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -56271,7 +56651,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -57501,7 +57882,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -57538,7 +57920,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -57718,7 +58101,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -57762,7 +58146,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -58440,7 +58825,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -58620,7 +59006,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -58899,7 +59286,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -59744,7 +60132,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -60272,7 +60661,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -60337,7 +60727,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -61727,7 +62118,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -61778,7 +62170,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -63461,7 +63854,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -64490,7 +64884,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66173,7 +66568,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66217,7 +66613,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66397,7 +66794,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66434,7 +66832,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66471,7 +66870,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66508,7 +66908,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66545,7 +66946,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66582,7 +66984,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66861,7 +67264,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -66898,7 +67302,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -66942,7 +67347,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -66993,7 +67399,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67030,7 +67437,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67074,7 +67482,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67125,7 +67534,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67162,7 +67572,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67260,7 +67671,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67297,7 +67709,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67334,7 +67747,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67378,7 +67792,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67422,7 +67837,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67459,7 +67875,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67503,7 +67920,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67540,7 +67958,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67591,7 +68010,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67635,7 +68055,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67679,7 +68100,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67730,7 +68152,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67828,7 +68251,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67865,7 +68289,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67902,7 +68327,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67939,7 +68365,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -67983,7 +68410,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2023,
@@ -68020,7 +68448,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68057,7 +68486,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68094,7 +68524,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68192,7 +68623,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68314,7 +68746,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68351,7 +68784,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68388,7 +68822,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68425,7 +68860,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68820,7 +69256,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68864,7 +69301,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -68901,7 +69339,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69081,7 +69520,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69118,7 +69558,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69397,7 +69838,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69577,7 +70019,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69614,7 +70057,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69893,7 +70337,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -69930,7 +70375,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70028,7 +70474,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70065,7 +70512,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70116,7 +70564,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70153,7 +70602,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70190,7 +70640,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70234,7 +70685,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -70629,7 +71081,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71249,7 +71702,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71286,7 +71740,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71323,7 +71778,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71360,7 +71816,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71411,7 +71868,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71448,7 +71906,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71492,7 +71951,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -71536,7 +71996,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -72064,7 +72525,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -72186,7 +72648,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73416,7 +73879,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73460,7 +73924,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73497,7 +73962,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73534,7 +74000,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73578,7 +74045,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -73615,7 +74083,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -73660,7 +74129,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -73697,7 +74167,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -74167,7 +74638,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -74211,7 +74683,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -75240,7 +75713,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -75270,7 +75744,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -75307,7 +75782,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -75337,7 +75813,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -75374,7 +75851,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -75653,7 +76131,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76181,7 +76660,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76576,7 +77056,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76756,7 +77237,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76800,7 +77282,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76837,7 +77320,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76935,7 +77419,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -76972,7 +77457,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -77009,7 +77495,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -77046,7 +77533,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -77325,7 +77813,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -77369,7 +77858,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -77648,7 +78138,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -80108,7 +80599,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -80145,7 +80637,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -80325,7 +80818,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -80362,7 +80856,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80392,7 +80887,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80429,7 +80925,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80466,7 +80963,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80503,7 +81001,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80547,7 +81046,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80605,7 +81105,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80642,7 +81143,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -80916,7 +81418,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -81096,7 +81599,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -81133,7 +81637,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -81170,7 +81675,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -81214,7 +81720,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -81742,7 +82249,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -82021,7 +82529,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -82114,7 +82623,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -82144,7 +82654,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -82181,7 +82692,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -82218,7 +82730,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82255,7 +82768,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82353,7 +82867,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82397,7 +82912,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82659,7 +83175,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82703,7 +83220,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -82982,7 +83500,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -83080,7 +83599,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -83359,7 +83879,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -83539,7 +84060,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -83818,7 +84340,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -83848,7 +84371,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -83885,7 +84409,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -83936,7 +84461,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -84965,7 +85491,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -85063,7 +85590,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -85174,6 +85702,20 @@ window.JURISDICTIONS = [
             "Mike Hutchinson": 0.5012,
             "Nick Resnick": 0.4883
           }
+        },
+        "pairwiseVotes": {
+          "Mike Hutchinson": {
+            "Nick Resnick": 12467,
+            "Pecolia Manigo": 11350
+          },
+          "Nick Resnick": {
+            "Mike Hutchinson": 12184,
+            "Pecolia Manigo": 12369
+          },
+          "Pecolia Manigo": {
+            "Mike Hutchinson": 11406,
+            "Nick Resnick": 11802
+          }
         }
       },
       {
@@ -85272,7 +85814,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -85309,7 +85852,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86338,7 +86882,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86382,7 +86927,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86719,7 +87265,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86763,7 +87310,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86943,7 +87491,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -86980,7 +87529,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -87017,7 +87567,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -87054,7 +87605,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -87091,7 +87643,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -87428,7 +87981,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -87694,7 +88248,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -88097,7 +88652,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
@@ -88195,7 +88751,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
@@ -88375,7 +88932,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2009,
@@ -88419,7 +88977,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -88607,7 +89166,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -88705,7 +89265,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -88932,7 +89493,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -89211,7 +89773,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -89490,7 +90053,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -89535,7 +90099,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -89610,8 +90175,8 @@ window.JURISDICTIONS = [
               "stage": 1
             },
             {
-              "id": "R1:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R1:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 1
             },
             {
@@ -89635,8 +90200,8 @@ window.JURISDICTIONS = [
               "stage": 1
             },
             {
-              "id": "R1:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R1:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 1
             },
             {
@@ -89715,8 +90280,8 @@ window.JURISDICTIONS = [
               "stage": 2
             },
             {
-              "id": "R2:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R2:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 2
             },
             {
@@ -89740,8 +90305,8 @@ window.JURISDICTIONS = [
               "stage": 2
             },
             {
-              "id": "R2:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R2:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 2
             },
             {
@@ -89815,8 +90380,8 @@ window.JURISDICTIONS = [
               "stage": 3
             },
             {
-              "id": "R3:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R3:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 3
             },
             {
@@ -89840,8 +90405,8 @@ window.JURISDICTIONS = [
               "stage": 3
             },
             {
-              "id": "R3:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R3:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 3
             },
             {
@@ -89910,8 +90475,8 @@ window.JURISDICTIONS = [
               "stage": 4
             },
             {
-              "id": "R4:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R4:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 4
             },
             {
@@ -89935,8 +90500,8 @@ window.JURISDICTIONS = [
               "stage": 4
             },
             {
-              "id": "R4:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R4:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 4
             },
             {
@@ -90005,8 +90570,8 @@ window.JURISDICTIONS = [
               "stage": 5
             },
             {
-              "id": "R5:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R5:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 5
             },
             {
@@ -90030,8 +90595,8 @@ window.JURISDICTIONS = [
               "stage": 5
             },
             {
-              "id": "R5:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R5:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 5
             },
             {
@@ -90095,8 +90660,8 @@ window.JURISDICTIONS = [
               "stage": 6
             },
             {
-              "id": "R6:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R6:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 6
             },
             {
@@ -90120,8 +90685,8 @@ window.JURISDICTIONS = [
               "stage": 6
             },
             {
-              "id": "R6:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R6:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 6
             },
             {
@@ -90180,8 +90745,8 @@ window.JURISDICTIONS = [
               "stage": 7
             },
             {
-              "id": "R7:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R7:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 7
             },
             {
@@ -90200,8 +90765,8 @@ window.JURISDICTIONS = [
               "stage": 7
             },
             {
-              "id": "R7:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R7:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 7
             },
             {
@@ -90255,8 +90820,8 @@ window.JURISDICTIONS = [
               "stage": 8
             },
             {
-              "id": "R8:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R8:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 8
             },
             {
@@ -90275,8 +90840,8 @@ window.JURISDICTIONS = [
               "stage": 8
             },
             {
-              "id": "R8:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R8:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 8
             },
             {
@@ -90325,8 +90890,8 @@ window.JURISDICTIONS = [
               "stage": 9
             },
             {
-              "id": "R9:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R9:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 9
             },
             {
@@ -90345,8 +90910,8 @@ window.JURISDICTIONS = [
               "stage": 9
             },
             {
-              "id": "R9:Shei.Meka..BeUtee..As.Salaam",
-              "name": "Shei.Meka..BeUtee..As.Salaam",
+              "id": "R9:Shei'Meka (BeUtee) As-Salaam",
+              "name": "Shei'Meka (BeUtee) As-Salaam",
               "stage": 9
             },
             {
@@ -90395,8 +90960,8 @@ window.JURISDICTIONS = [
               "stage": 10
             },
             {
-              "id": "R10:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R10:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 10
             },
             {
@@ -90455,8 +91020,8 @@ window.JURISDICTIONS = [
               "stage": 11
             },
             {
-              "id": "R11:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R11:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 11
             },
             {
@@ -90510,8 +91075,8 @@ window.JURISDICTIONS = [
               "stage": 12
             },
             {
-              "id": "R12:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R12:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 12
             },
             {
@@ -90560,8 +91125,8 @@ window.JURISDICTIONS = [
               "stage": 13
             },
             {
-              "id": "R13:Michael.O.Callaghan",
-              "name": "Michael.O.Callaghan",
+              "id": "R13:Michael.O. Callaghan",
+              "name": "Michael.O. Callaghan",
               "stage": 13
             },
             {
@@ -90873,7 +91438,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R10:Michael.Hayes",
-              "target": "R11:Michael.O.Callaghan",
+              "target": "R11:Michael.O. Callaghan",
               "value": 130
             },
             {
@@ -90892,8 +91457,8 @@ window.JURISDICTIONS = [
               "value": 117
             },
             {
-              "source": "R10:Michael.O.Callaghan",
-              "target": "R11:Michael.O.Callaghan",
+              "source": "R10:Michael.O. Callaghan",
+              "target": "R11:Michael.O. Callaghan",
               "value": 2345
             },
             {
@@ -90948,7 +91513,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R11:Alexander.Landry.Neely",
-              "target": "R12:Michael.O.Callaghan",
+              "target": "R12:Michael.O. Callaghan",
               "value": 163
             },
             {
@@ -91002,8 +91567,8 @@ window.JURISDICTIONS = [
               "value": 2310
             },
             {
-              "source": "R11:Michael.O.Callaghan",
-              "target": "R12:Michael.O.Callaghan",
+              "source": "R11:Michael.O. Callaghan",
+              "target": "R12:Michael.O. Callaghan",
               "value": 2475
             },
             {
@@ -91083,7 +91648,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R12:Martin.Ward",
-              "target": "R13:Michael.O.Callaghan",
+              "target": "R13:Michael.O. Callaghan",
               "value": 185
             },
             {
@@ -91102,8 +91667,8 @@ window.JURISDICTIONS = [
               "value": 123
             },
             {
-              "source": "R12:Michael.O.Callaghan",
-              "target": "R13:Michael.O.Callaghan",
+              "source": "R12:Michael.O. Callaghan",
+              "target": "R13:Michael.O. Callaghan",
               "value": 2638
             },
             {
@@ -91152,47 +91717,47 @@ window.JURISDICTIONS = [
               "value": 21484
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Carmen.Rubio",
               "value": 273
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Durrell.Kinsey.Bey",
               "value": 189
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Exhausted",
               "value": 492
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Josh.Leake",
               "value": 184
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Keith.Wilson",
               "value": 503
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Liv..Viva..Osthus",
               "value": 519
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Mingus.Mapps",
               "value": 212
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Rene.Gonzalez",
               "value": 231
             },
             {
-              "source": "R13:Michael.O.Callaghan",
+              "source": "R13:Michael.O. Callaghan",
               "target": "R14:Sharon.Nasset",
               "value": 220
             },
@@ -91602,8 +92167,8 @@ window.JURISDICTIONS = [
               "value": 324
             },
             {
-              "source": "R1:Michael.O.Callaghan",
-              "target": "R2:Michael.O.Callaghan",
+              "source": "R1:Michael.O. Callaghan",
+              "target": "R2:Michael.O. Callaghan",
               "value": 2033
             },
             {
@@ -91627,8 +92192,8 @@ window.JURISDICTIONS = [
               "value": 2149
             },
             {
-              "source": "R1:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R2:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R1:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R2:Shei'Meka (BeUtee) As-Salaam",
               "value": 1164
             },
             {
@@ -91758,7 +92323,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R2:Michael.Necula",
-              "target": "R3:Michael.O.Callaghan",
+              "target": "R3:Michael.O. Callaghan",
               "value": 14
             },
             {
@@ -91783,7 +92348,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R2:Michael.Necula",
-              "target": "R3:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R3:Shei'Meka (BeUtee) As-Salaam",
               "value": 6
             },
             {
@@ -91792,8 +92357,8 @@ window.JURISDICTIONS = [
               "value": 6
             },
             {
-              "source": "R2:Michael.O.Callaghan",
-              "target": "R3:Michael.O.Callaghan",
+              "source": "R2:Michael.O. Callaghan",
+              "target": "R3:Michael.O. Callaghan",
               "value": 2033
             },
             {
@@ -91817,8 +92382,8 @@ window.JURISDICTIONS = [
               "value": 2149
             },
             {
-              "source": "R2:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R3:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R2:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R3:Shei'Meka (BeUtee) As-Salaam",
               "value": 1164
             },
             {
@@ -91913,7 +92478,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R3:James.Atkinson.IV",
-              "target": "R4:Michael.O.Callaghan",
+              "target": "R4:Michael.O. Callaghan",
               "value": 31
             },
             {
@@ -91938,7 +92503,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R3:James.Atkinson.IV",
-              "target": "R4:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R4:Shei'Meka (BeUtee) As-Salaam",
               "value": 20
             },
             {
@@ -91977,8 +92542,8 @@ window.JURISDICTIONS = [
               "value": 1768
             },
             {
-              "source": "R3:Michael.O.Callaghan",
-              "target": "R4:Michael.O.Callaghan",
+              "source": "R3:Michael.O. Callaghan",
+              "target": "R4:Michael.O. Callaghan",
               "value": 2047
             },
             {
@@ -92002,8 +92567,8 @@ window.JURISDICTIONS = [
               "value": 2155
             },
             {
-              "source": "R3:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R4:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R3:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R4:Shei'Meka (BeUtee) As-Salaam",
               "value": 1170
             },
             {
@@ -92072,8 +92637,8 @@ window.JURISDICTIONS = [
               "value": 1786
             },
             {
-              "source": "R4:Michael.O.Callaghan",
-              "target": "R5:Michael.O.Callaghan",
+              "source": "R4:Michael.O. Callaghan",
+              "target": "R5:Michael.O. Callaghan",
               "value": 2078
             },
             {
@@ -92097,8 +92662,8 @@ window.JURISDICTIONS = [
               "value": 2174
             },
             {
-              "source": "R4:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R5:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R4:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R5:Shei'Meka (BeUtee) As-Salaam",
               "value": 1190
             },
             {
@@ -92158,7 +92723,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R4:Uncertified.Write.In",
-              "target": "R5:Michael.O.Callaghan",
+              "target": "R5:Michael.O. Callaghan",
               "value": 7
             },
             {
@@ -92183,7 +92748,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R4:Uncertified.Write.In",
-              "target": "R5:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R5:Shei'Meka (BeUtee) As-Salaam",
               "value": 8
             },
             {
@@ -92252,8 +92817,8 @@ window.JURISDICTIONS = [
               "value": 1797
             },
             {
-              "source": "R5:Michael.O.Callaghan",
-              "target": "R6:Michael.O.Callaghan",
+              "source": "R5:Michael.O. Callaghan",
+              "target": "R6:Michael.O. Callaghan",
               "value": 2085
             },
             {
@@ -92277,8 +92842,8 @@ window.JURISDICTIONS = [
               "value": 2182
             },
             {
-              "source": "R5:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R6:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R5:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R6:Shei'Meka (BeUtee) As-Salaam",
               "value": 1198
             },
             {
@@ -92338,7 +92903,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R5:Yao.Jun.He",
-              "target": "R6:Michael.O.Callaghan",
+              "target": "R6:Michael.O. Callaghan",
               "value": 36
             },
             {
@@ -92363,7 +92928,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R5:Yao.Jun.He",
-              "target": "R6:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R6:Shei'Meka (BeUtee) As-Salaam",
               "value": 74
             },
             {
@@ -92422,8 +92987,8 @@ window.JURISDICTIONS = [
               "value": 1826
             },
             {
-              "source": "R6:Michael.O.Callaghan",
-              "target": "R7:Michael.O.Callaghan",
+              "source": "R6:Michael.O. Callaghan",
+              "target": "R7:Michael.O. Callaghan",
               "value": 2121
             },
             {
@@ -92493,7 +93058,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R6:Saadiq.Ali",
-              "target": "R7:Michael.O.Callaghan",
+              "target": "R7:Michael.O. Callaghan",
               "value": 23
             },
             {
@@ -92513,7 +93078,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R6:Saadiq.Ali",
-              "target": "R7:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R7:Shei'Meka (BeUtee) As-Salaam",
               "value": 221
             },
             {
@@ -92522,8 +93087,8 @@ window.JURISDICTIONS = [
               "value": 2215
             },
             {
-              "source": "R6:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R7:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R6:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R7:Shei'Meka (BeUtee) As-Salaam",
               "value": 1272
             },
             {
@@ -92593,7 +93158,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R7:Dustin.Witherspoon",
-              "target": "R8:Michael.O.Callaghan",
+              "target": "R8:Michael.O. Callaghan",
               "value": 63
             },
             {
@@ -92613,7 +93178,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R7:Dustin.Witherspoon",
-              "target": "R8:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R8:Shei'Meka (BeUtee) As-Salaam",
               "value": 20
             },
             {
@@ -92652,8 +93217,8 @@ window.JURISDICTIONS = [
               "value": 1841
             },
             {
-              "source": "R7:Michael.O.Callaghan",
-              "target": "R8:Michael.O.Callaghan",
+              "source": "R7:Michael.O. Callaghan",
+              "target": "R8:Michael.O. Callaghan",
               "value": 2144
             },
             {
@@ -92672,8 +93237,8 @@ window.JURISDICTIONS = [
               "value": 2260
             },
             {
-              "source": "R7:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R8:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R7:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R8:Shei'Meka (BeUtee) As-Salaam",
               "value": 1493
             },
             {
@@ -92743,7 +93308,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R8:James.Macdonald",
-              "target": "R9:Michael.O.Callaghan",
+              "target": "R9:Michael.O. Callaghan",
               "value": 89
             },
             {
@@ -92763,7 +93328,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R8:James.Macdonald",
-              "target": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "target": "R9:Shei'Meka (BeUtee) As-Salaam",
               "value": 14
             },
             {
@@ -92792,8 +93357,8 @@ window.JURISDICTIONS = [
               "value": 1870
             },
             {
-              "source": "R8:Michael.O.Callaghan",
-              "target": "R9:Michael.O.Callaghan",
+              "source": "R8:Michael.O. Callaghan",
+              "target": "R9:Michael.O. Callaghan",
               "value": 2207
             },
             {
@@ -92812,8 +93377,8 @@ window.JURISDICTIONS = [
               "value": 2307
             },
             {
-              "source": "R8:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R8:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R9:Shei'Meka (BeUtee) As-Salaam",
               "value": 1513
             },
             {
@@ -92862,8 +93427,8 @@ window.JURISDICTIONS = [
               "value": 1969
             },
             {
-              "source": "R9:Michael.O.Callaghan",
-              "target": "R10:Michael.O.Callaghan",
+              "source": "R9:Michael.O. Callaghan",
+              "target": "R10:Michael.O. Callaghan",
               "value": 2296
             },
             {
@@ -92882,67 +93447,67 @@ window.JURISDICTIONS = [
               "value": 2380
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Alexander.Landry.Neely",
               "value": 46
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Carmen.Rubio",
               "value": 177
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Durrell.Kinsey.Bey",
               "value": 177
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Exhausted",
               "value": 222
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Josh.Leake",
               "value": 46
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Keith.Wilson",
               "value": 94
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Liv..Viva..Osthus",
               "value": 271
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Martin.Ward",
               "value": 18
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Michael.Hayes",
               "value": 45
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
-              "target": "R10:Michael.O.Callaghan",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
+              "target": "R10:Michael.O. Callaghan",
               "value": 49
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Mingus.Mapps",
               "value": 144
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Rene.Gonzalez",
               "value": 155
             },
             {
-              "source": "R9:Shei.Meka..BeUtee..As.Salaam",
+              "source": "R9:Shei'Meka (BeUtee) As-Salaam",
               "target": "R10:Sharon.Nasset",
               "value": 83
             }
@@ -92964,12 +93529,12 @@ window.JURISDICTIONS = [
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.Necula",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam",
+                "Shei'Meka (BeUtee) As-Salaam",
                 "Uncertified.Write.In",
                 "Yao.Jun.He"
               ],
@@ -92987,12 +93552,12 @@ window.JURISDICTIONS = [
                 "Martin.Ward": 2064,
                 "Michael.Hayes": 1760,
                 "Michael.Necula": 324,
-                "Michael.O.Callaghan": 2033,
+                "Michael.O. Callaghan": 2033,
                 "Mingus.Mapps": 39679,
                 "Rene.Gonzalez": 55267,
                 "Saadiq.Ali": 862,
                 "Sharon.Nasset": 2149,
-                "Shei.Meka..BeUtee..As.Salaam": 1164,
+                "Shei'Meka (BeUtee) As-Salaam": 1164,
                 "Uncertified.Write.In": 634,
                 "Yao.Jun.He": 801
               },
@@ -93014,12 +93579,12 @@ window.JURISDICTIONS = [
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.Necula",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam",
+                "Shei'Meka (BeUtee) As-Salaam",
                 "Uncertified.Write.In",
                 "Yao.Jun.He"
               ],
@@ -93036,12 +93601,12 @@ window.JURISDICTIONS = [
                 "Martin.Ward": 2064,
                 "Michael.Hayes": 1760,
                 "Michael.Necula": 324,
-                "Michael.O.Callaghan": 2033,
+                "Michael.O. Callaghan": 2033,
                 "Mingus.Mapps": 39679,
                 "Rene.Gonzalez": 55267,
                 "Saadiq.Ali": 862,
                 "Sharon.Nasset": 2149,
-                "Shei.Meka..BeUtee..As.Salaam": 1164,
+                "Shei'Meka (BeUtee) As-Salaam": 1164,
                 "Uncertified.Write.In": 634,
                 "Yao.Jun.He": 801
               },
@@ -93062,12 +93627,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam",
+                "Shei'Meka (BeUtee) As-Salaam",
                 "Uncertified.Write.In",
                 "Yao.Jun.He"
               ],
@@ -93083,12 +93648,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20194,
                 "Martin.Ward": 2072,
                 "Michael.Hayes": 1768,
-                "Michael.O.Callaghan": 2047,
+                "Michael.O. Callaghan": 2047,
                 "Mingus.Mapps": 39688,
                 "Rene.Gonzalez": 55293,
                 "Saadiq.Ali": 868,
                 "Sharon.Nasset": 2155,
-                "Shei.Meka..BeUtee..As.Salaam": 1170,
+                "Shei'Meka (BeUtee) As-Salaam": 1170,
                 "Uncertified.Write.In": 634,
                 "Yao.Jun.He": 807
               },
@@ -93108,12 +93673,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam",
+                "Shei'Meka (BeUtee) As-Salaam",
                 "Uncertified.Write.In",
                 "Yao.Jun.He"
               ],
@@ -93128,12 +93693,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20240,
                 "Martin.Ward": 2079,
                 "Michael.Hayes": 1786,
-                "Michael.O.Callaghan": 2078,
+                "Michael.O. Callaghan": 2078,
                 "Mingus.Mapps": 39723,
                 "Rene.Gonzalez": 55317,
                 "Saadiq.Ali": 894,
                 "Sharon.Nasset": 2174,
-                "Shei.Meka..BeUtee..As.Salaam": 1190,
+                "Shei'Meka (BeUtee) As-Salaam": 1190,
                 "Uncertified.Write.In": 634,
                 "Yao.Jun.He": 819
               },
@@ -93153,12 +93718,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam",
+                "Shei'Meka (BeUtee) As-Salaam",
                 "Yao.Jun.He"
               ],
               "tallies": {
@@ -93172,12 +93737,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20275,
                 "Martin.Ward": 2087,
                 "Michael.Hayes": 1797,
-                "Michael.O.Callaghan": 2085,
+                "Michael.O. Callaghan": 2085,
                 "Mingus.Mapps": 39761,
                 "Rene.Gonzalez": 55364,
                 "Saadiq.Ali": 901,
                 "Sharon.Nasset": 2182,
-                "Shei.Meka..BeUtee..As.Salaam": 1198,
+                "Shei'Meka (BeUtee) As-Salaam": 1198,
                 "Yao.Jun.He": 832
               },
               "exhausted": 553,
@@ -93196,12 +93761,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Saadiq.Ali",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam"
+                "Shei'Meka (BeUtee) As-Salaam"
               ],
               "tallies": {
                 "Alexander.Landry.Neely": 1927,
@@ -93214,12 +93779,12 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20329,
                 "Martin.Ward": 2108,
                 "Michael.Hayes": 1826,
-                "Michael.O.Callaghan": 2121,
+                "Michael.O. Callaghan": 2121,
                 "Mingus.Mapps": 39812,
                 "Rene.Gonzalez": 55448,
                 "Saadiq.Ali": 962,
                 "Sharon.Nasset": 2215,
-                "Shei.Meka..BeUtee..As.Salaam": 1272
+                "Shei'Meka (BeUtee) As-Salaam": 1272
               },
               "exhausted": 728,
               "eliminated": "Saadiq.Ali"
@@ -93237,11 +93802,11 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam"
+                "Shei'Meka (BeUtee) As-Salaam"
               ],
               "tallies": {
                 "Alexander.Landry.Neely": 1944,
@@ -93254,11 +93819,11 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20393,
                 "Martin.Ward": 2132,
                 "Michael.Hayes": 1841,
-                "Michael.O.Callaghan": 2144,
+                "Michael.O. Callaghan": 2144,
                 "Mingus.Mapps": 39903,
                 "Rene.Gonzalez": 55544,
                 "Sharon.Nasset": 2260,
-                "Shei.Meka..BeUtee..As.Salaam": 1493
+                "Shei'Meka (BeUtee) As-Salaam": 1493
               },
               "exhausted": 895,
               "eliminated": "Dustin.Witherspoon"
@@ -93275,11 +93840,11 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam"
+                "Shei'Meka (BeUtee) As-Salaam"
               ],
               "tallies": {
                 "Alexander.Landry.Neely": 1988,
@@ -93291,11 +93856,11 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20446,
                 "Martin.Ward": 2177,
                 "Michael.Hayes": 1870,
-                "Michael.O.Callaghan": 2207,
+                "Michael.O. Callaghan": 2207,
                 "Mingus.Mapps": 39951,
                 "Rene.Gonzalez": 55679,
                 "Sharon.Nasset": 2307,
-                "Shei.Meka..BeUtee..As.Salaam": 1513
+                "Shei'Meka (BeUtee) As-Salaam": 1513
               },
               "exhausted": 1098,
               "eliminated": "James.Macdonald"
@@ -93311,11 +93876,11 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset",
-                "Shei.Meka..BeUtee..As.Salaam"
+                "Shei'Meka (BeUtee) As-Salaam"
               ],
               "tallies": {
                 "Alexander.Landry.Neely": 2055,
@@ -93326,14 +93891,14 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20479,
                 "Martin.Ward": 2233,
                 "Michael.Hayes": 1969,
-                "Michael.O.Callaghan": 2296,
+                "Michael.O. Callaghan": 2296,
                 "Mingus.Mapps": 40010,
                 "Rene.Gonzalez": 55806,
                 "Sharon.Nasset": 2380,
-                "Shei.Meka..BeUtee..As.Salaam": 1527
+                "Shei'Meka (BeUtee) As-Salaam": 1527
               },
               "exhausted": 1467,
-              "eliminated": "Shei.Meka..BeUtee..As.Salaam"
+              "eliminated": "Shei'Meka (BeUtee) As-Salaam"
             },
             {
               "stage": 10,
@@ -93346,7 +93911,7 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset"
@@ -93360,7 +93925,7 @@ window.JURISDICTIONS = [
                 "Liv..Viva..Osthus": 20750,
                 "Martin.Ward": 2251,
                 "Michael.Hayes": 2014,
-                "Michael.O.Callaghan": 2345,
+                "Michael.O. Callaghan": 2345,
                 "Mingus.Mapps": 40154,
                 "Rene.Gonzalez": 55961,
                 "Sharon.Nasset": 2463
@@ -93378,7 +93943,7 @@ window.JURISDICTIONS = [
                 "Keith.Wilson",
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset"
@@ -93391,7 +93956,7 @@ window.JURISDICTIONS = [
                 "Keith.Wilson": 105179,
                 "Liv..Viva..Osthus": 20859,
                 "Martin.Ward": 2310,
-                "Michael.O.Callaghan": 2475,
+                "Michael.O. Callaghan": 2475,
                 "Mingus.Mapps": 40426,
                 "Rene.Gonzalez": 56162,
                 "Sharon.Nasset": 2580
@@ -93408,7 +93973,7 @@ window.JURISDICTIONS = [
                 "Keith.Wilson",
                 "Liv..Viva..Osthus",
                 "Martin.Ward",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset"
@@ -93420,7 +93985,7 @@ window.JURISDICTIONS = [
                 "Keith.Wilson": 105497,
                 "Liv..Viva..Osthus": 21341,
                 "Martin.Ward": 2376,
-                "Michael.O.Callaghan": 2638,
+                "Michael.O. Callaghan": 2638,
                 "Mingus.Mapps": 40625,
                 "Rene.Gonzalez": 56268,
                 "Sharon.Nasset": 2703
@@ -93436,7 +94001,7 @@ window.JURISDICTIONS = [
                 "Josh.Leake",
                 "Keith.Wilson",
                 "Liv..Viva..Osthus",
-                "Michael.O.Callaghan",
+                "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset"
@@ -93447,13 +94012,13 @@ window.JURISDICTIONS = [
                 "Josh.Leake": 2887,
                 "Keith.Wilson": 105842,
                 "Liv..Viva..Osthus": 21484,
-                "Michael.O.Callaghan": 2823,
+                "Michael.O. Callaghan": 2823,
                 "Mingus.Mapps": 40755,
                 "Rene.Gonzalez": 56628,
                 "Sharon.Nasset": 2826
               },
               "exhausted": 3041,
-              "eliminated": "Michael.O.Callaghan"
+              "eliminated": "Michael.O. Callaghan"
             },
             {
               "stage": 14,
@@ -93590,7 +94155,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -93635,7 +94201,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -93733,7 +94300,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -93770,7 +94338,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -93807,7 +94376,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2025,
@@ -94086,7 +94656,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -94098,7 +94669,7 @@ window.JURISDICTIONS = [
     "elections": [
       {
         "year": 2004,
-        "office": "Board of Supervisors District1",
+        "office": "BoardofSupervisorsDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Jake McGoldrick. Plurality leader: Jake McGoldrick. Condorcet winner: Jake McGoldrick.",
         "sankey": {
@@ -94622,11 +95193,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District11",
+        "office": "BoardofSupervisorsDistrict11",
         "condorcet": "green",
         "notes": "IRV winner: Gerardo Sandoval. Plurality leader: Gerardo Sandoval. Condorcet winner: Gerardo Sandoval.",
         "sankey": {
@@ -95300,11 +95872,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District2",
+        "office": "BoardofSupervisorsDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Michela Alioto-pier. Plurality leader: Michela Alioto-pier. Condorcet winner: Michela Alioto-pier.",
         "sankey": {
@@ -95358,11 +95931,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District3",
+        "office": "BoardofSupervisorsDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Arron Peskin. Plurality leader: Arron Peskin. Condorcet winner: Arron Peskin.",
         "sankey": {
@@ -95409,11 +95983,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District5",
+        "office": "BoardofSupervisorsDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Ross Mirkarimi. Plurality leader: Ross Mirkarimi. Condorcet winner: Ross Mirkarimi.",
         "sankey": {
@@ -99884,11 +100459,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District7",
+        "office": "BoardofSupervisorsDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Sean R. Elsbernd. Plurality leader: Sean R. Elsbernd. Condorcet winner: Sean R. Elsbernd.",
         "sankey": {
@@ -101567,11 +102143,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2004,
-        "office": "Board of Supervisors District9",
+        "office": "BoardofSupervisorsDistrict9",
         "condorcet": "green",
         "notes": "IRV winner: Tom Ammiano. Plurality leader: Tom Ammiano. Condorcet winner: Tom Ammiano.",
         "sankey": {
@@ -101632,7 +102209,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2005,
@@ -101812,7 +102390,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2005,
@@ -101863,11 +102442,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2006,
-        "office": "Board of Supervisors District10",
+        "office": "BoardofSupervisorsDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Sophie Maxwell. Plurality leader: Sophie Maxwell. Condorcet winner: Sophie Maxwell.",
         "sankey": {
@@ -101935,11 +102515,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2006,
-        "office": "Board of Supervisors District2",
+        "office": "BoardofSupervisorsDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Michela Alioto-pier. Plurality leader: Michela Alioto-pier. Condorcet winner: Michela Alioto-pier.",
         "sankey": {
@@ -101972,11 +102553,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2006,
-        "office": "Board of Supervisors District4",
+        "office": "BoardofSupervisorsDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Ed Jew. Plurality leader: Ed Jew. Condorcet winner: Ed Jew.",
         "sankey": {
@@ -102367,11 +102949,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2006,
-        "office": "Board of Supervisors District6",
+        "office": "BoardofSupervisorsDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Chris Daly. Plurality leader: Chris Daly. Condorcet winner: Chris Daly.",
         "sankey": {
@@ -102912,11 +103495,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2006,
-        "office": "Board of Supervisors District8",
+        "office": "BoardofSupervisorsDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Bevan Dufty. Plurality leader: Bevan Dufty. Condorcet winner: Bevan Dufty.",
         "sankey": {
@@ -102956,7 +103540,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2007,
@@ -103063,11 +103648,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District1",
+        "office": "BoardofSupervisorsDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Eric Mar. Plurality leader: Eric Mar. Condorcet winner: Eric Mar.",
         "sankey": {
@@ -103908,11 +104494,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District11",
+        "office": "BoardofSupervisorsDistrict11",
         "condorcet": "green",
         "notes": "IRV winner: John Avalos. Plurality leader: John Avalos. Condorcet winner: John Avalos.",
         "sankey": {
@@ -104708,11 +105295,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District3",
+        "office": "BoardofSupervisorsDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: David Chiu. Plurality leader: David Chiu. Condorcet winner: David Chiu.",
         "sankey": {
@@ -105553,11 +106141,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District4",
+        "office": "BoardofSupervisorsDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Carmen Chu. Plurality leader: Carmen Chu. Condorcet winner: Carmen Chu.",
         "sankey": {
@@ -105597,11 +106186,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District5",
+        "office": "BoardofSupervisorsDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Ross Mirkarimi. Plurality leader: Ross Mirkarimi. Condorcet winner: Ross Mirkarimi.",
         "sankey": {
@@ -105641,11 +106231,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District7",
+        "office": "BoardofSupervisorsDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Sean R. Elsbernd. Plurality leader: Sean R. Elsbernd. Condorcet winner: Sean R. Elsbernd.",
         "sankey": {
@@ -105685,11 +106276,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2008,
-        "office": "Board of Supervisors District9",
+        "office": "BoardofSupervisorsDistrict9",
         "condorcet": "green",
         "notes": "IRV winner: David Campos. Plurality leader: David Campos. Condorcet winner: David Campos.",
         "sankey": {
@@ -106213,11 +106805,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
-        "office": "Board of Supervisors District10",
+        "office": "BoardofSupervisorsDistrict10",
         "condorcet": "blue",
         "notes": "IRV winner: Malia Cohen. Plurality leader: Lynette Sweet. Condorcet winner: Malia Cohen.",
         "sankey": {
@@ -110363,11 +110956,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
-        "office": "Board of Supervisors District2",
+        "office": "BoardofSupervisorsDistrict2",
         "condorcet": "blue",
         "notes": "IRV winner: Mark Farrell. Plurality leader: Janet Reilly. Condorcet winner: Mark Farrell.",
         "sankey": {
@@ -110758,11 +111352,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
-        "office": "Board of Supervisors District6",
+        "office": "BoardofSupervisorsDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Jane Kim. Plurality leader: Jane Kim. Condorcet winner: Jane Kim.",
         "sankey": {
@@ -112693,11 +113288,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
-        "office": "Board of Supervisors District8",
+        "office": "BoardofSupervisorsDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Scott Wiener. Plurality leader: Scott Wiener. Condorcet winner: Scott Wiener.",
         "sankey": {
@@ -112873,7 +113469,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2011,
@@ -113152,7 +113749,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2011,
@@ -115642,7 +116240,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2011,
@@ -115822,11 +116421,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
-        "office": "Board of Supervisors District5",
+        "office": "BoardofSupervisorsDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: London Breed. Plurality leader: London Breed. Condorcet winner: London Breed.",
         "sankey": {
@@ -116500,11 +117100,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
-        "office": "Board of Supervisors District7",
+        "office": "BoardofSupervisorsDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Norman Yee. Plurality leader: Norman Yee. Condorcet winner: Norman Yee.",
         "sankey": {
@@ -117345,11 +117946,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
-        "office": "Board of Supervisors District10",
+        "office": "BoardofSupervisorsDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Malia Cohen. Plurality leader: Malia Cohen. Condorcet winner: Malia Cohen.",
         "sankey": {
@@ -117566,11 +118168,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2015,
-        "office": "Board of Supervisors District3",
+        "office": "BoardofSupervisorsDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -117610,7 +118213,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2015,
@@ -117675,7 +118279,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2015,
@@ -117719,11 +118324,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District1",
+        "office": "BoardofSupervisorsDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Sandra Lee Fewer. Plurality leader: Sandra Lee Fewer. Condorcet winner: Sandra Lee Fewer.",
         "sankey": {
@@ -118748,11 +119354,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District11",
+        "office": "BoardofSupervisorsDistrict11",
         "condorcet": "green",
         "notes": "IRV winner: Ahsha Safai. Plurality leader: Ahsha Safai. Condorcet winner: Ahsha Safai.",
         "sankey": {
@@ -119027,11 +119634,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District3",
+        "office": "BoardofSupervisorsDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -119064,11 +119672,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District5",
+        "office": "BoardofSupervisorsDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: London Breed. Plurality leader: London Breed. Condorcet winner: London Breed.",
         "sankey": {
@@ -119101,11 +119710,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District7",
+        "office": "BoardofSupervisorsDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Norman Yee. Plurality leader: Norman Yee. Condorcet winner: Norman Yee.",
         "sankey": {
@@ -119380,11 +119990,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
-        "office": "Board of Supervisors District9",
+        "office": "BoardofSupervisorsDistrict9",
         "condorcet": "green",
         "notes": "IRV winner: Hillary Ronen. Plurality leader: Hillary Ronen. Condorcet winner: Hillary Ronen.",
         "sankey": {
@@ -119431,7 +120042,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -119468,11 +120080,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District10",
+        "office": "BoardofSupervisorsDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Shamann Walton. Plurality leader: Shamann Walton. Condorcet winner: Shamann Walton.",
         "sankey": {
@@ -119863,11 +120476,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District2",
+        "office": "BoardofSupervisorsDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Catherine Stefani. Plurality leader: Catherine Stefani. Condorcet winner: Catherine Stefani.",
         "sankey": {
@@ -120043,11 +120657,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District4",
+        "office": "BoardofSupervisorsDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Gordon Mar. Plurality leader: Gordon Mar. Condorcet winner: Gordon Mar.",
         "sankey": {
@@ -120721,11 +121336,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District6",
+        "office": "BoardofSupervisorsDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Matt Haney. Plurality leader: Matt Haney. Condorcet winner: Matt Haney.",
         "sankey": {
@@ -120765,11 +121381,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District8",
+        "office": "BoardofSupervisorsDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -120809,11 +121426,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
-        "office": "Board of Supervisors District8",
+        "office": "BoardofSupervisorsDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -120846,7 +121464,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -121524,7 +122143,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -121554,11 +122174,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
-        "office": "Board of Supervisors District5",
+        "office": "BoardofSupervisorsDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Dean Preston. Plurality leader: Dean Preston. Condorcet winner: Dean Preston.",
         "sankey": {
@@ -121734,7 +122355,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -121764,7 +122386,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -121944,7 +122567,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -122016,7 +122640,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -122046,7 +122671,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -122076,7 +122702,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2019,
@@ -122106,11 +122733,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D1",
+        "office": "BoardOfSupervisorsD1",
         "condorcet": "green",
         "notes": "IRV winner: Connie Chan. Plurality leader: Connie Chan. Condorcet winner: Connie Chan.",
         "sankey": {
@@ -122634,11 +123262,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D11",
+        "office": "BoardOfSupervisorsD11",
         "condorcet": "green",
         "notes": "IRV winner: Ahsha Safai. Plurality leader: Ahsha Safai. Condorcet winner: Ahsha Safai.",
         "sankey": {
@@ -122814,11 +123443,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D3",
+        "office": "BoardOfSupervisorsD3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -122865,11 +123495,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D5",
+        "office": "BoardOfSupervisorsD5",
         "condorcet": "green",
         "notes": "IRV winner: Dean Preston. Plurality leader: Dean Preston. Condorcet winner: Dean Preston.",
         "sankey": {
@@ -122916,11 +123547,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D7",
+        "office": "BoardOfSupervisorsD7",
         "condorcet": "blue",
         "notes": "IRV winner: Myrna Melgar. Plurality leader: Joel Engardio. Condorcet winner: Myrna Melgar.",
         "sankey": {
@@ -123444,11 +124076,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
-        "office": "Board Of Supervisors D9",
+        "office": "BoardOfSupervisorsD9",
         "condorcet": "green",
         "notes": "IRV winner: Hillary Ronen. Plurality leader: Hillary Ronen. Condorcet winner: Hillary Ronen.",
         "sankey": {
@@ -123481,7 +124114,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -123511,11 +124145,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "Board of Supervisors D10",
+        "office": "BoardofSupervisorsD10",
         "condorcet": "green",
         "notes": "IRV winner: Shamann Walton. Plurality leader: Shamann Walton. Condorcet winner: Shamann Walton.",
         "sankey": {
@@ -123548,11 +124183,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "Board of Supervisors D2",
+        "office": "BoardofSupervisorsD2",
         "condorcet": "green",
         "notes": "IRV winner: Catherine Stefani. Plurality leader: Catherine Stefani. Condorcet winner: Catherine Stefani.",
         "sankey": {
@@ -123578,11 +124214,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "Board of Supervisors D4",
+        "office": "BoardofSupervisorsD4",
         "condorcet": "green",
         "notes": "IRV winner: Joel Engardio. Plurality leader: Joel Engardio. Condorcet winner: Joel Engardio.",
         "sankey": {
@@ -123615,11 +124252,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "Board of Supervisors D6",
+        "office": "BoardofSupervisorsD6",
         "condorcet": "green",
         "notes": "IRV winner: Matt Dorsey. Plurality leader: Matt Dorsey. Condorcet winner: Matt Dorsey.",
         "sankey": {
@@ -123666,11 +124304,12 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
-        "office": "Board of Supervisors D8",
+        "office": "BoardofSupervisorsD8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -123703,7 +124342,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -123883,7 +124523,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -123920,7 +124561,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -124199,7 +124841,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -124727,7 +125370,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -125122,7 +125766,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -125401,7 +126046,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -125581,7 +126227,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -126109,7 +126756,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -126146,7 +126794,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -126183,7 +126832,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -128257,7 +128907,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -128294,7 +128945,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2024,
@@ -128324,7 +128976,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -128376,7 +129029,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -128406,7 +129060,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -128443,7 +129098,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2010,
@@ -128823,7 +129479,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -128921,7 +129578,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -129101,7 +129759,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2012,
@@ -129138,7 +129797,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -129318,7 +129978,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -129362,7 +130023,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -129406,7 +130068,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2014,
@@ -129586,7 +130249,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -129623,7 +130287,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -129653,7 +130318,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2016,
@@ -129683,7 +130349,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -129727,7 +130394,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -129764,7 +130432,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -129801,7 +130470,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -129852,7 +130522,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -129889,7 +130560,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -129926,7 +130598,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2020,
@@ -129956,7 +130629,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -130008,7 +130682,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -130106,7 +130781,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2018,
@@ -130385,7 +131061,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -130491,7 +131168,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -130535,7 +131213,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -130573,7 +131252,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -130610,7 +131290,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -130708,7 +131389,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2021,
@@ -130738,7 +131420,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -130790,7 +131473,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -130820,7 +131504,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -130918,7 +131603,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -130948,7 +131634,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -131046,7 +131733,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -131226,7 +131914,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       },
       {
         "year": 2022,
@@ -131270,7 +131959,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -131343,7 +132033,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -131395,7 +132086,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -131501,7 +132193,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   },
@@ -131607,7 +132300,8 @@ window.JURISDICTIONS = [
             }
           ]
         },
-        "pairwiseRatios": null
+        "pairwiseRatios": null,
+        "pairwiseVotes": null
       }
     ]
   }
