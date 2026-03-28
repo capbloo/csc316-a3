@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Good is Instant Runoff?
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tooltip" id="tooltip"></div>
+
+  <div class="page">
+    <header>
+      <div class="overline">Ranked-Choice Voting in the United States, 2021-2025</div>
+      <h1>How Good is Instant Runoff Voting?</h1>
+      <p class="subtitle">
+        Instant Runoff Voting (IRV) is the most widely used ranked-choice voting system in the United States. It is designed to reduce vote splitting and elect broadly popular candidates.
+
+        Yet it can still fail to elect the <a href="https://en.wikipedia.org/wiki/Condorcet_winner">Condorcet winner</a>, the candidate a majority of voters prefer in head-to-head matchups against every other candidate.
+      </p>
+    </header>
+
+    <div class="stats-strip" id="stats-strip"></div>
+
+    <div class="legend-bar" id="legend-bar"></div>
+
+    <div class="map-container" id="map-container">
+      <div class="sankey-fullscreen" id="sankey-fullscreen" hidden>
+        <div class="sankey-fs-header">
+          <div class="sankey-fs-meta">
+            <div class="sankey-fs-title" id="sankey-fs-title"></div>
+            <div class="sankey-fs-category" id="sankey-fs-category"></div>
+          </div>
+          <button class="sankey-fs-close" id="sankey-fs-close" aria-label="Close">✕</button>
+        </div>
+        <div class="sankey-fs-body" id="sankey-fs-body"></div>
+      </div>
+    </div>
+
+    <div class="detail-panel">
+      <h2>Reading the Map</h2>
+      <p>
+        Each dot is a jurisdiction. Its color shows how IRV's winner compares to the
+        <strong>Condorcet winner</strong> — the candidate who would beat every other candidate
+        head-to-head. Click any dot to explore its elections.
+      </p>
+      <div class="category-explain">
+        <div class="cat-card cat-green">
+          <h3>Green — Agreement</h3>
+          <p>IRV elected the Condorcet winner, and plurality would have too. No difference between methods.</p>
+        </div>
+        <div class="cat-card cat-blue">
+          <h3>Blue — Condorcet Improvement</h3>
+          <p>IRV elected the Condorcet winner, but plurality would not have. IRV corrected a vote-splitting outcome.</p>
+        </div>
+        <div class="cat-card cat-yellow">
+          <h3>Yellow — Condorcet Failure</h3>
+          <p>A Condorcet winner existed, but IRV eliminated them before the final round. The most broadly preferred candidate lost.</p>
+        </div>
+        <div class="cat-card cat-purple">
+          <h3>Purple — No Condorcet Winner</h3>
+          <p>Preferences cycle: A beats B, B beats C, C beats A. No candidate is majority-preferred over all others, so any winner is contestable.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="source-note">
+      Data: Otis, Deb. 2022. “Single Winner Ranked Choice Voting CVRs.” Harvard Dataverse. <a href=https://doi.org/10.7910/DVN/AMK8PJ>doi.org/10.7910/DVN/AMK8PJ</a>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+  <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script>
+    // Expose d3-sankey exports on the d3 namespace (handles both UMD styles)
+    if (window.d3Sankey) {
+      ["sankey", "sankeyLeft", "sankeyRight", "sankeyCenter", "sankeyJustify", "sankeyLinkHorizontal"].forEach(function(fn) {
+        if (!d3[fn]) d3[fn] = window.d3Sankey[fn];
+      });
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+  <script src="data.js"></script>
+  <script src="constants.js"></script>
+  <script src="state.js"></script>
+  <script src="clustering.js"></script>
+  <script src="ui.js"></script>
+  <script src="map.js"></script>
+  <script src="panel.js"></script>
+  <script src="sankey.js"></script>
+  <script src="init.js"></script>
+</body>
+</html>
