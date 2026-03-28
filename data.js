@@ -3046,7 +3046,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "USHouse Special",
+        "office": "US House Special",
         "condorcet": "yellow",
         "notes": "IRV winner: Peltola, Mary S.. Plurality leader: Peltola, Mary S.. Condorcet winner: Begich, Nick.",
         "sankey": {
@@ -3158,7 +3158,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "USRepresentative",
+        "office":  "US Representative",
         "condorcet": "green",
         "notes": "IRV winner: Peltola, Mary S.. Plurality leader: Peltola, Mary S.. Condorcet winner: Peltola, Mary S..",
         "sankey": {
@@ -3339,7 +3339,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "USSenator",
+        "office": "US Senator",
         "condorcet": "green",
         "notes": "IRV winner: Murkowski, Lisa. Plurality leader: Murkowski, Lisa. Condorcet winner: Murkowski, Lisa.",
         "sankey": {
@@ -8138,7 +8138,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD2",
+        "office": "CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Terry Taplin. Plurality leader: Terry Taplin. Condorcet winner: Terry Taplin.",
         "sankey": {
@@ -8319,7 +8319,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD3",
+        "office": "CityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Ben Bartlett. Plurality leader: Ben Bartlett. Condorcet winner: Ben Bartlett.",
         "sankey": {
@@ -8364,7 +8364,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD5",
+        "office": "CityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Sophie Hahn. Plurality leader: Sophie Hahn. Condorcet winner: Sophie Hahn.",
         "sankey": {
@@ -8409,7 +8409,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD6",
+        "office": "CityCouncilDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Susan Wengraf. Plurality leader: Susan Wengraf. Condorcet winner: Susan Wengraf.",
         "sankey": {
@@ -8499,7 +8499,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD2",
+        "office": "CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Terry Taplin. Plurality leader: Terry Taplin. Condorcet winner: Terry Taplin.",
         "sankey": {
@@ -8537,7 +8537,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD3",
+        "office": "CityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Ben Bartlett. Plurality leader: Ben Bartlett. Condorcet winner: Ben Bartlett.",
         "sankey": {
@@ -8582,7 +8582,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD5",
+        "office": "CityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Shoshana O'Keefe. Plurality leader: Shoshana O'Keefe. Condorcet winner: Shoshana O'Keefe.",
         "sankey": {
@@ -8627,7 +8627,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD6",
+        "office": "CityCouncilDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Brent Blackaby. Plurality leader: Brent Blackaby. Condorcet winner: Brent Blackaby.",
         "sankey": {
@@ -9233,7 +9233,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilD4",
+        "office": "CityCouncilDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Victor Rivas. Plurality leader: Victor Rivas. Condorcet winner: Victor Rivas.",
         "sankey": {
@@ -13044,7 +13044,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "State House District istrict41 DemNominee",
+        "office": "State House District41 DemNominee",
         "condorcet": "green",
         "notes": "IRV winner: Zager, Samuel Lewis. Plurality leader: Zager, Samuel Lewis. Condorcet winner: Zager, Samuel Lewis.",
         "sankey": {
@@ -13143,7 +13143,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "State House District istrict47 DemNominee",
+        "office": "State House District47 DemNominee",
         "condorcet": "green",
         "notes": "IRV winner: Bell, Arthur L.. Plurality leader: Bell, Arthur L.. Condorcet winner: Bell, Arthur L..",
         "sankey": {
@@ -13242,7 +13242,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "State House District istrict49 DemNominee",
+        "office": "State House District49 DemNominee",
         "condorcet": "green",
         "notes": "IRV winner: Arford, Poppy. Plurality leader: Arford, Poppy. Condorcet winner: Arford, Poppy.",
         "sankey": {
@@ -13341,7 +13341,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "State House District istrict90 DemNominee",
+        "office": "State House District90 DemNominee",
         "condorcet": "green",
         "notes": "IRV winner: Crafts, Lydia V.. Plurality leader: Crafts, Lydia V.. Condorcet winner: Crafts, Lydia V..",
         "sankey": {
@@ -13785,7 +13785,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD1",
+        "office": "ParksBoardDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Liz Wielinski. Plurality leader: Liz Wielinski. Condorcet winner: Liz Wielinski.",
         "sankey": {
@@ -13830,7 +13830,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD2",
+        "office": "ParksBoardDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Jon Olson. Plurality leader: Jon Olson. Condorcet winner: Jon Olson.",
         "sankey": {
@@ -13868,7 +13868,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD3",
+        "office": "ParksBoardDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Scott Vreeland. Plurality leader: Scott Vreeland. Condorcet winner: Scott Vreeland.",
         "sankey": {
@@ -13906,7 +13906,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD4",
+        "office": "ParksBoardDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Anita Tabb. Plurality leader: Anita Tabb. Condorcet winner: Anita Tabb.",
         "sankey": {
@@ -13937,7 +13937,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD5",
+        "office": "ParksBoardDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Carol Kummer. Plurality leader: Carol Kummer. Condorcet winner: Carol Kummer.",
         "sankey": {
@@ -14217,7 +14217,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2009,
-        "office": "ParksBoardD6",
+        "office": "ParksBoardDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -26893,7 +26893,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2013,
-        "office": "ParksBoardD2",
+        "office": "ParksBoardDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Jon Olson. Plurality leader: Jon Olson. Condorcet winner: Jon Olson.",
         "sankey": {
@@ -26931,7 +26931,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2013,
-        "office": "ParksBoardD6",
+        "office": "ParksBoardDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -31142,7 +31142,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD1",
+        "office": "ParksBoardDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Chris Meyer. Plurality leader: Chris Meyer. Condorcet winner: Chris Meyer.",
         "sankey": {
@@ -31241,7 +31241,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD2",
+        "office": "ParksBoardDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Kale Severson. Plurality leader: Kale Severson. Condorcet winner: Kale Severson.",
         "sankey": {
@@ -31279,7 +31279,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD3",
+        "office": "ParksBoardDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: AK Hassan. Plurality leader: AK Hassan. Condorcet winner: AK Hassan.",
         "sankey": {
@@ -31378,7 +31378,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD4",
+        "office": "ParksBoardDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Jono Cowgill. Plurality leader: Jono Cowgill. Condorcet winner: Jono Cowgill.",
         "sankey": {
@@ -31416,7 +31416,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD5",
+        "office": "ParksBoardDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Steffanie Musich. Plurality leader: Steffanie Musich. Condorcet winner: Steffanie Musich.",
         "sankey": {
@@ -31461,7 +31461,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2017,
-        "office": "ParksBoardD6",
+        "office": "ParksBoardDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Brad Bourn. Plurality leader: Brad Bourn. Condorcet winner: Brad Bourn.",
         "sankey": {
@@ -38541,7 +38541,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW1",
+        "office": "CityCouncilWard1",
         "condorcet": "green",
         "notes": "IRV winner: Elliott Payne. Plurality leader: Elliott Payne. Condorcet winner: Elliott Payne.",
         "sankey": {
@@ -38579,7 +38579,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW10",
+        "office": "CityCouncilWard10",
         "condorcet": "green",
         "notes": "IRV winner: Aisha Chughtai. Plurality leader: Aisha Chughtai. Condorcet winner: Aisha Chughtai.",
         "sankey": {
@@ -38631,7 +38631,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW11",
+        "office": "CityCouncilWard11",
         "condorcet": "green",
         "notes": "IRV winner: Emily Koski. Plurality leader: Emily Koski. Condorcet winner: Emily Koski.",
         "sankey": {
@@ -38669,7 +38669,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW12",
+        "office": "CityCouncilWard12",
         "condorcet": "green",
         "notes": "IRV winner: Aurin Chowdhury. Plurality leader: Aurin Chowdhury. Condorcet winner: Aurin Chowdhury.",
         "sankey": {
@@ -38714,7 +38714,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW13",
+        "office": "CityCouncilWard13",
         "condorcet": "green",
         "notes": "IRV winner: Linea Palmisano. Plurality leader: Linea Palmisano. Condorcet winner: Linea Palmisano.",
         "sankey": {
@@ -38766,7 +38766,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW2",
+        "office": "CityCouncilWard2",
         "condorcet": "green",
         "notes": "IRV winner: Robin Wonsley. Plurality leader: Robin Wonsley. Condorcet winner: Robin Wonsley.",
         "sankey": {
@@ -38804,7 +38804,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW3",
+        "office": "CityCouncilWard3",
         "condorcet": "green",
         "notes": "IRV winner: Michael Rainville. Plurality leader: Michael Rainville. Condorcet winner: Michael Rainville.",
         "sankey": {
@@ -38842,7 +38842,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW4",
+        "office": "CityCouncilWard4",
         "condorcet": "green",
         "notes": "IRV winner: LaTrisha M. Vetaw. Plurality leader: LaTrisha M. Vetaw. Condorcet winner: LaTrisha M. Vetaw.",
         "sankey": {
@@ -38894,7 +38894,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW5",
+        "office": "CityCouncilWard5",
         "condorcet": "green",
         "notes": "IRV winner: Jeremiah Bey Ellison. Plurality leader: Jeremiah Bey Ellison. Condorcet winner: Jeremiah Bey Ellison.",
         "sankey": {
@@ -38939,7 +38939,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW6",
+        "office": "CityCouncilWard6",
         "condorcet": "green",
         "notes": "IRV winner: Jamal Osman. Plurality leader: Jamal Osman. Condorcet winner: Jamal Osman.",
         "sankey": {
@@ -39120,7 +39120,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW7",
+        "office": "CityCouncilWard7",
         "condorcet": "green",
         "notes": "IRV winner: Katie Cashman. Plurality leader: Katie Cashman. Condorcet winner: Katie Cashman.",
         "sankey": {
@@ -39219,7 +39219,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW8",
+        "office": "CityCouncilWard8",
         "condorcet": "blue",
         "notes": "IRV winner: Andrea Jenkins. Plurality leader: Soren Stevenson. Condorcet winner: Andrea Jenkins.",
         "sankey": {
@@ -39400,7 +39400,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CityCouncilW9",
+        "office": "CityCouncilWard9",
         "condorcet": "green",
         "notes": "IRV winner: Jason Chavez. Plurality leader: Jason Chavez. Condorcet winner: Jason Chavez.",
         "sankey": {
@@ -40190,7 +40190,7 @@ window.JURISDICTIONS = [
     "elections": [
       {
         "year": 2021,
-        "office": "CON CityCouncilD19",
+        "office": "CON CityCouncilDistrict19",
         "condorcet": "green",
         "notes": "IRV winner: John-Alexander Sakelos. Plurality leader: John-Alexander Sakelos. Condorcet winner: John-Alexander Sakelos.",
         "sankey": {
@@ -42807,7 +42807,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD1",
+        "office": "DEM CityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Christopher Marte. Plurality leader: Christopher Marte. Condorcet winner: Christopher Marte.",
         "sankey": {
@@ -43595,7 +43595,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD10",
+        "office": "DEM CityCouncilDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Carmen N. De La Rosa. Plurality leader: Carmen N. De La Rosa. Condorcet winner: Carmen N. De La Rosa.",
         "sankey": {
@@ -44274,7 +44274,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD11",
+        "office": "DEM CityCouncilDistrict11",
         "condorcet": "green",
         "notes": "IRV winner: Eric Dinowitz. Plurality leader: Eric Dinowitz. Condorcet winner: Eric Dinowitz.",
         "sankey": {
@@ -44745,7 +44745,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD12",
+        "office": "DEM CityCouncilDistrict12",
         "condorcet": "green",
         "notes": "IRV winner: Kevin Riley. Plurality leader: Kevin Riley. Condorcet winner: Kevin Riley.",
         "sankey": {
@@ -44844,7 +44844,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD13",
+        "office": "DEM CityCouncilDistrict13",
         "condorcet": "green",
         "notes": "IRV winner: Marjorie Velazquez. Plurality leader: Marjorie Velazquez. Condorcet winner: Marjorie Velazquez.",
         "sankey": {
@@ -44903,7 +44903,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD14",
+        "office": "DEM CityCouncilDistrict14",
         "condorcet": "green",
         "notes": "IRV winner: Pierina Ana Sanchez. Plurality leader: Pierina Ana Sanchez. Condorcet winner: Pierina Ana Sanchez.",
         "sankey": {
@@ -45299,7 +45299,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD15",
+        "office": "DEM CityCouncilDistrict15",
         "condorcet": "green",
         "notes": "IRV winner: Oswald Feliz. Plurality leader: Oswald Feliz. Condorcet winner: Oswald Feliz.",
         "sankey": {
@@ -45920,7 +45920,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD16",
+        "office": "DEM CityCouncilDistrict16",
         "condorcet": "green",
         "notes": "IRV winner: Althea V. Stevens. Plurality leader: Althea V. Stevens. Condorcet winner: Althea V. Stevens.",
         "sankey": {
@@ -45972,7 +45972,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD17",
+        "office": "DEM CityCouncilDistrict17",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Salamanca Jr.. Plurality leader: Rafael Salamanca Jr.. Condorcet winner: Rafael Salamanca Jr..",
         "sankey": {
@@ -46010,7 +46010,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD18",
+        "office": "DEM CityCouncilDistrict18",
         "condorcet": "green",
         "notes": "IRV winner: Amanda Farias. Plurality leader: Amanda Farias. Condorcet winner: Amanda Farias.",
         "sankey": {
@@ -46689,7 +46689,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD19",
+        "office": "DEM CityCouncilDistrict19",
         "condorcet": "green",
         "notes": "IRV winner: Tony Avella. Plurality leader: Tony Avella. Condorcet winner: Tony Avella.",
         "sankey": {
@@ -47085,7 +47085,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD2",
+        "office": "DEM CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Carlina Rivera. Plurality leader: Carlina Rivera. Condorcet winner: Carlina Rivera.",
         "sankey": {
@@ -47123,7 +47123,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD20",
+        "office": "DEM CityCouncilDistrict20",
         "condorcet": "green",
         "notes": "IRV winner: Sandra Ung. Plurality leader: Sandra Ung. Condorcet winner: Sandra Ung.",
         "sankey": {
@@ -47802,7 +47802,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD21",
+        "office": "DEM CityCouncilDistrict21",
         "condorcet": "green",
         "notes": "IRV winner: Francisco P. Moya. Plurality leader: Francisco P. Moya. Condorcet winner: Francisco P. Moya.",
         "sankey": {
@@ -47861,7 +47861,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD22",
+        "office": "DEM CityCouncilDistrict22",
         "condorcet": "green",
         "notes": "IRV winner: Tiffany Caban. Plurality leader: Tiffany Caban. Condorcet winner: Tiffany Caban.",
         "sankey": {
@@ -48124,7 +48124,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD23",
+        "office": "DEM CityCouncilDistrict23",
         "condorcet": "green",
         "notes": "IRV winner: Linda Lee. Plurality leader: Linda Lee. Condorcet winner: Linda Lee.",
         "sankey": {
@@ -48653,7 +48653,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD24",
+        "office": "DEM CityCouncilDistrict24",
         "condorcet": "green",
         "notes": "IRV winner: James F. Gennaro. Plurality leader: James F. Gennaro. Condorcet winner: James F. Gennaro.",
         "sankey": {
@@ -48705,7 +48705,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD25",
+        "office": "DEM CityCouncilDistrict25",
         "condorcet": "blue",
         "notes": "IRV winner: Shekar Krishnan. Plurality leader: Yi Andy Chen. Condorcet winner: Shekar Krishnan.",
         "sankey": {
@@ -49384,7 +49384,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD26",
+        "office": "DEM CityCouncilDistrict26",
         "condorcet": "green",
         "notes": "IRV winner: Julie Won. Plurality leader: Julie Won. Condorcet winner: Julie Won.",
         "sankey": {
@@ -51589,7 +51589,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD27",
+        "office": "DEM CityCouncilDistrict27",
         "condorcet": "green",
         "notes": "IRV winner: Nantasha M. Williams. Plurality leader: Nantasha M. Williams. Condorcet winner: Nantasha M. Williams.",
         "sankey": {
@@ -52905,7 +52905,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD28",
+        "office": "DEM CityCouncilDistrict28",
         "condorcet": "green",
         "notes": "IRV winner: Adrienne E. Adams. Plurality leader: Adrienne E. Adams. Condorcet winner: Adrienne E. Adams.",
         "sankey": {
@@ -52950,7 +52950,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD29",
+        "office": "DEM CityCouncilDistrict29",
         "condorcet": "green",
         "notes": "IRV winner: Lynn C. Schulman. Plurality leader: Lynn C. Schulman. Condorcet winner: Lynn C. Schulman.",
         "sankey": {
@@ -53796,7 +53796,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD3",
+        "office": "DEM CityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Erik D. Bottcher. Plurality leader: Erik D. Bottcher. Condorcet winner: Erik D. Bottcher.",
         "sankey": {
@@ -54059,7 +54059,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD30",
+        "office": "DEM CityCouncilDistrict30",
         "condorcet": "green",
         "notes": "IRV winner: Robert F. Holden. Plurality leader: Robert F. Holden. Condorcet winner: Robert F. Holden.",
         "sankey": {
@@ -54097,7 +54097,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD31",
+        "office": "DEM CityCouncilDistrict31",
         "condorcet": "green",
         "notes": "IRV winner: Selvena N. Brooks-Powers. Plurality leader: Selvena N. Brooks-Powers. Condorcet winner: Selvena N. Brooks-Powers.",
         "sankey": {
@@ -54142,7 +54142,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD32",
+        "office": "DEM CityCouncilDistrict32",
         "condorcet": "green",
         "notes": "IRV winner: Felicia Singh. Plurality leader: Felicia Singh. Condorcet winner: Felicia Singh.",
         "sankey": {
@@ -54538,7 +54538,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD33",
+        "office": "DEM CityCouncilDistrict33",
         "condorcet": "green",
         "notes": "IRV winner: Lincoln Restler. Plurality leader: Lincoln Restler. Condorcet winner: Lincoln Restler.",
         "sankey": {
@@ -54757,7 +54757,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD34",
+        "office": "DEM CityCouncilDistrict34",
         "condorcet": "green",
         "notes": "IRV winner: Jennifer Gutierrez. Plurality leader: Jennifer Gutierrez. Condorcet winner: Jennifer Gutierrez.",
         "sankey": {
@@ -54809,7 +54809,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD35",
+        "office": "DEM CityCouncilDistrict35",
         "condorcet": "green",
         "notes": "IRV winner: Crystal Hudson. Plurality leader: Crystal Hudson. Condorcet winner: Crystal Hudson.",
         "sankey": {
@@ -55338,7 +55338,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD36",
+        "office": "DEM CityCouncilDistrict36",
         "condorcet": "green",
         "notes": "IRV winner: Chi A. Osse. Plurality leader: Chi A. Osse. Condorcet winner: Chi A. Osse.",
         "sankey": {
@@ -55618,7 +55618,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD37",
+        "office": "DEM CityCouncilDistrict37",
         "condorcet": "green",
         "notes": "IRV winner: Sandy Nurse. Plurality leader: Sandy Nurse. Condorcet winner: Sandy Nurse.",
         "sankey": {
@@ -55789,7 +55789,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD38",
+        "office": "DEM CityCouncilDistrict38",
         "condorcet": "green",
         "notes": "IRV winner: Alexa Aviles. Plurality leader: Alexa Aviles. Condorcet winner: Alexa Aviles.",
         "sankey": {
@@ -56127,7 +56127,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD39",
+        "office": "DEM CityCouncilDistrict39",
         "condorcet": "green",
         "notes": "IRV winner: Shahana K. Hanif. Plurality leader: Shahana K. Hanif. Condorcet winner: Shahana K. Hanif.",
         "sankey": {
@@ -56656,7 +56656,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD40",
+        "office": "DEM CityCouncilDistrict40",
         "condorcet": "green",
         "notes": "IRV winner: Rita C. Joseph. Plurality leader: Rita C. Joseph. Condorcet winner: Rita C. Joseph.",
         "sankey": {
@@ -57887,7 +57887,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD41",
+        "office": "DEM CityCouncilDistrict41",
         "condorcet": "green",
         "notes": "IRV winner: Darlene Mealy. Plurality leader: Darlene Mealy. Condorcet winner: Darlene Mealy.",
         "sankey": {
@@ -57925,7 +57925,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD42",
+        "office": "DEM CityCouncilDistrict42",
         "condorcet": "green",
         "notes": "IRV winner: Charles Barron. Plurality leader: Charles Barron. Condorcet winner: Charles Barron.",
         "sankey": {
@@ -58106,7 +58106,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD45",
+        "office": "DEM CityCouncilDistrict45",
         "condorcet": "green",
         "notes": "IRV winner: Farah N. Louis. Plurality leader: Farah N. Louis. Condorcet winner: Farah N. Louis.",
         "sankey": {
@@ -58151,7 +58151,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD46",
+        "office": "DEM CityCouncilDistrict46",
         "condorcet": "green",
         "notes": "IRV winner: Mercedes Narcisse. Plurality leader: Mercedes Narcisse. Condorcet winner: Mercedes Narcisse.",
         "sankey": {
@@ -58830,7 +58830,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD47",
+        "office": "DEM CityCouncilDistrict47",
         "condorcet": "green",
         "notes": "IRV winner: Ari Kagan. Plurality leader: Ari Kagan. Condorcet winner: Ari Kagan.",
         "sankey": {
@@ -59011,7 +59011,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD48",
+        "office": "DEM CityCouncilDistrict48",
         "condorcet": "green",
         "notes": "IRV winner: Steven Saperstein. Plurality leader: Steven Saperstein. Condorcet winner: Steven Saperstein.",
         "sankey": {
@@ -59291,7 +59291,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD49",
+        "office": "DEM CityCouncilDistrict49",
         "condorcet": "green",
         "notes": "IRV winner: Kamillah Hanks. Plurality leader: Kamillah Hanks. Condorcet winner: Kamillah Hanks.",
         "sankey": {
@@ -60137,7 +60137,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD5",
+        "office": "DEM CityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Julie Menin. Plurality leader: Julie Menin. Condorcet winner: Julie Menin.",
         "sankey": {
@@ -60666,7 +60666,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD6",
+        "office": "DEM CityCouncilDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Gale A. Brewer. Plurality leader: Gale A. Brewer. Condorcet winner: Gale A. Brewer.",
         "sankey": {
@@ -60732,7 +60732,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD7",
+        "office": "DEM CityCouncilDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Shaun Abreu. Plurality leader: Shaun Abreu. Condorcet winner: Shaun Abreu.",
         "sankey": {
@@ -62123,7 +62123,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD8",
+        "office": "DEM CityCouncilDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Diana I. Ayala. Plurality leader: Diana I. Ayala. Condorcet winner: Diana I. Ayala.",
         "sankey": {
@@ -62175,7 +62175,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "DEM CityCouncilD9",
+        "office": "DEM CityCouncilDistrict9",
         "condorcet": "blue",
         "notes": "IRV winner: Kristin Richardson Jordan. Plurality leader: Bill Perkins. Condorcet winner: Kristin Richardson Jordan.",
         "sankey": {
@@ -66799,7 +66799,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD15",
+        "office": "REP CityCouncilDistrict15",
         "condorcet": "green",
         "notes": "IRV winner: Ariel Rivera-Diaz. Plurality leader: Ariel Rivera-Diaz. Condorcet winner: Ariel Rivera-Diaz.",
         "sankey": {
@@ -66837,7 +66837,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD19",
+        "office": "REP CityCouncilDistrict19",
         "condorcet": "green",
         "notes": "IRV winner: Vickie Paladino. Plurality leader: Vickie Paladino. Condorcet winner: Vickie Paladino.",
         "sankey": {
@@ -66875,7 +66875,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD23",
+        "office": "REP CityCouncilDistrict23",
         "condorcet": "green",
         "notes": "IRV winner: James F. Reilly. Plurality leader: James F. Reilly. Condorcet winner: James F. Reilly.",
         "sankey": {
@@ -66913,7 +66913,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD24",
+        "office": "REP CityCouncilDistrict24",
         "condorcet": "green",
         "notes": "IRV winner: Timothy Rosen. Plurality leader: Timothy Rosen. Condorcet winner: Timothy Rosen.",
         "sankey": {
@@ -66951,7 +66951,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD32",
+        "office": "REP CityCouncilDistrict32",
         "condorcet": "green",
         "notes": "IRV winner: Joann Ariola. Plurality leader: Joann Ariola. Condorcet winner: Joann Ariola.",
         "sankey": {
@@ -66989,7 +66989,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2021,
-        "office": "REP CityCouncilD50",
+        "office": "REP CityCouncilDistrict50",
         "condorcet": "blue",
         "notes": "IRV winner: David M. Carr. Plurality leader: Marko Kepi. Condorcet winner: David M. Carr.",
         "sankey": {
@@ -67307,7 +67307,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "CON CityCouncilD13",
+        "office": "CON CityCouncilDistrict13",
         "condorcet": "green",
         "notes": "IRV winner: Kristy Marmorato. Plurality leader: Kristy Marmorato. Condorcet winner: Kristy Marmorato.",
         "sankey": {
@@ -67352,7 +67352,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD1",
+        "office": "DEM CityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Christopher Marte. Plurality leader: Christopher Marte. Condorcet winner: Christopher Marte.",
         "sankey": {
@@ -67404,7 +67404,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD10",
+        "office": "DEM CityCouncilDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Carmen N. De La Rosa. Plurality leader: Carmen N. De La Rosa. Condorcet winner: Carmen N. De La Rosa.",
         "sankey": {
@@ -67442,7 +67442,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD12",
+        "office": "DEM CityCouncilDistrict12",
         "condorcet": "green",
         "notes": "IRV winner: Kevin C. Riley. Plurality leader: Kevin C. Riley. Condorcet winner: Kevin C. Riley.",
         "sankey": {
@@ -67487,7 +67487,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD13",
+        "office": "DEM CityCouncilDistrict13",
         "condorcet": "green",
         "notes": "IRV winner: Marjorie Velazquez. Plurality leader: Marjorie Velazquez. Condorcet winner: Marjorie Velazquez.",
         "sankey": {
@@ -67539,7 +67539,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD14",
+        "office": "DEM CityCouncilDistrict14",
         "condorcet": "green",
         "notes": "IRV winner: Pierina A. Sanchez. Plurality leader: Pierina A. Sanchez. Condorcet winner: Pierina A. Sanchez.",
         "sankey": {
@@ -67577,7 +67577,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD19",
+        "office": "DEM CityCouncilDistrict19",
         "condorcet": "green",
         "notes": "IRV winner: Tony Avella. Plurality leader: Tony Avella. Condorcet winner: Tony Avella.",
         "sankey": {
@@ -67676,7 +67676,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD2",
+        "office": "DEM CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Carlina Rivera. Plurality leader: Carlina Rivera. Condorcet winner: Carlina Rivera.",
         "sankey": {
@@ -67714,7 +67714,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD22",
+        "office": "DEM CityCouncilDistrict22",
         "condorcet": "green",
         "notes": "IRV winner: Tiffany L. Caban. Plurality leader: Tiffany L. Caban. Condorcet winner: Tiffany L. Caban.",
         "sankey": {
@@ -67752,7 +67752,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD23",
+        "office": "DEM CityCouncilDistrict23",
         "condorcet": "green",
         "notes": "IRV winner: Linda Lee. Plurality leader: Linda Lee. Condorcet winner: Linda Lee.",
         "sankey": {
@@ -67797,7 +67797,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD25",
+        "office": "DEM CityCouncilDistrict25",
         "condorcet": "green",
         "notes": "IRV winner: Shekar Krishnan. Plurality leader: Shekar Krishnan. Condorcet winner: Shekar Krishnan.",
         "sankey": {
@@ -67842,7 +67842,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD26",
+        "office": "DEM CityCouncilDistrict26",
         "condorcet": "green",
         "notes": "IRV winner: Julie Won. Plurality leader: Julie Won. Condorcet winner: Julie Won.",
         "sankey": {
@@ -67880,7 +67880,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD29",
+        "office": "DEM CityCouncilDistrict29",
         "condorcet": "green",
         "notes": "IRV winner: Lynn C. Schulman. Plurality leader: Lynn C. Schulman. Condorcet winner: Lynn C. Schulman.",
         "sankey": {
@@ -67925,7 +67925,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD34",
+        "office": "DEM CityCouncilDistrict34",
         "condorcet": "green",
         "notes": "IRV winner: Jennifer Gutierrez. Plurality leader: Jennifer Gutierrez. Condorcet winner: Jennifer Gutierrez.",
         "sankey": {
@@ -67963,7 +67963,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD41",
+        "office": "DEM CityCouncilDistrict41",
         "condorcet": "green",
         "notes": "IRV winner: Darlene Mealy. Plurality leader: Darlene Mealy. Condorcet winner: Darlene Mealy.",
         "sankey": {
@@ -68015,7 +68015,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD42",
+        "office": "DEM CityCouncilDistrict42",
         "condorcet": "green",
         "notes": "IRV winner: Chris Banks. Plurality leader: Chris Banks. Condorcet winner: Chris Banks.",
         "sankey": {
@@ -68060,7 +68060,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD43",
+        "office": "DEM CityCouncilDistrict43",
         "condorcet": "green",
         "notes": "IRV winner: Susan Zhuang. Plurality leader: Susan Zhuang. Condorcet winner: Susan Zhuang.",
         "sankey": {
@@ -68105,7 +68105,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "DEM CityCouncilD9",
+        "office": "DEM CityCouncilDistrict9",
         "condorcet": "green",
         "notes": "IRV winner: Yusef Salaam. Plurality leader: Yusef Salaam. Condorcet winner: Yusef Salaam.",
         "sankey": {
@@ -68157,7 +68157,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD13",
+        "office": "REP CityCouncilDistrict13",
         "condorcet": "green",
         "notes": "IRV winner: Kristy Marmorato. Plurality leader: Kristy Marmorato. Condorcet winner: Kristy Marmorato.",
         "sankey": {
@@ -68256,7 +68256,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD20",
+        "office": "REP CityCouncilDistrict20",
         "condorcet": "green",
         "notes": "IRV winner: Yu-Ching James Pai. Plurality leader: Yu-Ching James Pai. Condorcet winner: Yu-Ching James Pai.",
         "sankey": {
@@ -68294,7 +68294,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD43",
+        "office": "REP CityCouncilDistrict43",
         "condorcet": "green",
         "notes": "IRV winner: Ying Tan. Plurality leader: Ying Tan. Condorcet winner: Ying Tan.",
         "sankey": {
@@ -68332,7 +68332,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD44",
+        "office": "REP CityCouncilDistrict44",
         "condorcet": "green",
         "notes": "IRV winner: Kalman Yeger. Plurality leader: Kalman Yeger. Condorcet winner: Kalman Yeger.",
         "sankey": {
@@ -68370,7 +68370,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD47",
+        "office": "REP CityCouncilDistrict47",
         "condorcet": "green",
         "notes": "IRV winner: Ari Kagan. Plurality leader: Ari Kagan. Condorcet winner: Ari Kagan.",
         "sankey": {
@@ -68415,7 +68415,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2023,
-        "office": "REP CityCouncilD48",
+        "office": "REP CityCouncilDistrict48",
         "condorcet": "green",
         "notes": "IRV winner: Inna Vernikov. Plurality leader: Inna Vernikov. Condorcet winner: Inna Vernikov.",
         "sankey": {
@@ -68628,7 +68628,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD1",
+        "office": "DEMCityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Christopher Marte. Plurality leader: Christopher Marte. Condorcet winner: Christopher Marte.",
         "sankey": {
@@ -68751,7 +68751,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD10",
+        "office": "DEMCityCouncilDistrict10",
         "condorcet": "green",
         "notes": "IRV winner: Carmen N. De La Rosa. Plurality leader: Carmen N. De La Rosa. Condorcet winner: Carmen N. De La Rosa.",
         "sankey": {
@@ -68789,7 +68789,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD11",
+        "office": "DEMCityCouncilDistrict11",
         "condorcet": "green",
         "notes": "IRV winner: Eric Dinowitz. Plurality leader: Eric Dinowitz. Condorcet winner: Eric Dinowitz.",
         "sankey": {
@@ -68827,7 +68827,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD12",
+        "office": "DEMCityCouncilDistrict12",
         "condorcet": "green",
         "notes": "IRV winner: Kevin C. Riley. Plurality leader: Kevin C. Riley. Condorcet winner: Kevin C. Riley.",
         "sankey": {
@@ -68865,7 +68865,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD13",
+        "office": "DEMCityCouncilDistrict13",
         "condorcet": "green",
         "notes": "IRV winner: Shirley Aldebol. Plurality leader: Shirley Aldebol. Condorcet winner: Shirley Aldebol.",
         "sankey": {
@@ -69261,7 +69261,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD14",
+        "office": "DEMCityCouncilDistrict14",
         "condorcet": "green",
         "notes": "IRV winner: Pierina A. Sanchez. Plurality leader: Pierina A. Sanchez. Condorcet winner: Pierina A. Sanchez.",
         "sankey": {
@@ -69306,7 +69306,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD16",
+        "office": "DEMCityCouncilDistrict16",
         "condorcet": "green",
         "notes": "IRV winner: Althea V. Stevens. Plurality leader: Althea V. Stevens. Condorcet winner: Althea V. Stevens.",
         "sankey": {
@@ -69344,7 +69344,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD17",
+        "office": "DEMCityCouncilDistrict17",
         "condorcet": "green",
         "notes": "IRV winner: Justin E. Sanchez. Plurality leader: Justin E. Sanchez. Condorcet winner: Justin E. Sanchez.",
         "sankey": {
@@ -69525,7 +69525,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD19",
+        "office": "DEMCityCouncilDistrict19",
         "condorcet": "green",
         "notes": "IRV winner: Benjamin Chou. Plurality leader: Benjamin Chou. Condorcet winner: Benjamin Chou.",
         "sankey": {
@@ -69563,7 +69563,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD2",
+        "office": "DEMCityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Harvey D. Epstein. Plurality leader: Harvey D. Epstein. Condorcet winner: Harvey D. Epstein.",
         "sankey": {
@@ -69843,7 +69843,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD21",
+        "office": "DEMCityCouncilDistrict21",
         "condorcet": "green",
         "notes": "IRV winner: Shanel Thomas-Henry. Plurality leader: Shanel Thomas-Henry. Condorcet winner: Shanel Thomas-Henry.",
         "sankey": {
@@ -70024,7 +70024,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD25",
+        "office": "DEMCityCouncilDistrict25",
         "condorcet": "green",
         "notes": "IRV winner: Shekar Krishnan. Plurality leader: Shekar Krishnan. Condorcet winner: Shekar Krishnan.",
         "sankey": {
@@ -70062,7 +70062,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD28",
+        "office": "DEMCityCouncilDistrict28",
         "condorcet": "green",
         "notes": "IRV winner: Ty Hankerson. Plurality leader: Ty Hankerson. Condorcet winner: Ty Hankerson.",
         "sankey": {
@@ -70342,7 +70342,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD3",
+        "office": "DEMCityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Erik D. Bottcher. Plurality leader: Erik D. Bottcher. Condorcet winner: Erik D. Bottcher.",
         "sankey": {
@@ -70380,7 +70380,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD30",
+        "office": "DEMCityCouncilDistrict30",
         "condorcet": "green",
         "notes": "IRV winner: Phil Wong. Plurality leader: Phil Wong. Condorcet winner: Phil Wong.",
         "sankey": {
@@ -70479,7 +70479,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD33",
+        "office": "DEMCityCouncilDistrict33",
         "condorcet": "green",
         "notes": "IRV winner: Lincoln Restler. Plurality leader: Lincoln Restler. Condorcet winner: Lincoln Restler.",
         "sankey": {
@@ -70517,7 +70517,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD35",
+        "office": "DEMCityCouncilDistrict35",
         "condorcet": "green",
         "notes": "IRV winner: Crystal Hudson. Plurality leader: Crystal Hudson. Condorcet winner: Crystal Hudson.",
         "sankey": {
@@ -70569,7 +70569,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD36",
+        "office": "DEMCityCouncilDistrict36",
         "condorcet": "green",
         "notes": "IRV winner: Chi Ajani Osse. Plurality leader: Chi Ajani Osse. Condorcet winner: Chi Ajani Osse.",
         "sankey": {
@@ -70607,7 +70607,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD38",
+        "office": "DEMCityCouncilDistrict38",
         "condorcet": "green",
         "notes": "IRV winner: Alexa Aviles. Plurality leader: Alexa Aviles. Condorcet winner: Alexa Aviles.",
         "sankey": {
@@ -70645,7 +70645,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD39",
+        "office": "DEMCityCouncilDistrict39",
         "condorcet": "green",
         "notes": "IRV winner: Shahana K. Hanif. Plurality leader: Shahana K. Hanif. Condorcet winner: Shahana K. Hanif.",
         "sankey": {
@@ -70690,7 +70690,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD4",
+        "office": "DEMCityCouncilDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Virginia Maloney. Plurality leader: Virginia Maloney. Condorcet winner: Virginia Maloney.",
         "sankey": {
@@ -71086,7 +71086,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD41",
+        "office": "DEMCityCouncilDistrict41",
         "condorcet": "green",
         "notes": "IRV winner: Darlene Mealy. Plurality leader: Darlene Mealy. Condorcet winner: Darlene Mealy.",
         "sankey": {
@@ -71707,7 +71707,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD44",
+        "office": "DEMCityCouncilDistrict44",
         "condorcet": "green",
         "notes": "IRV winner: Simcha Felder. Plurality leader: Simcha Felder. Condorcet winner: Simcha Felder.",
         "sankey": {
@@ -71745,7 +71745,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD46",
+        "office": "DEMCityCouncilDistrict46",
         "condorcet": "green",
         "notes": "IRV winner: Mercedes Narcisse. Plurality leader: Mercedes Narcisse. Condorcet winner: Mercedes Narcisse.",
         "sankey": {
@@ -71783,7 +71783,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD47",
+        "office": "DEMCityCouncilDistrict47",
         "condorcet": "green",
         "notes": "IRV winner: Kayla Santosuosso. Plurality leader: Kayla Santosuosso. Condorcet winner: Kayla Santosuosso.",
         "sankey": {
@@ -71821,7 +71821,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD49",
+        "office": "DEMCityCouncilDistrict49",
         "condorcet": "green",
         "notes": "IRV winner: Kamillah M. Hanks. Plurality leader: Kamillah M. Hanks. Condorcet winner: Kamillah M. Hanks.",
         "sankey": {
@@ -71873,7 +71873,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD5",
+        "office": "DEMCityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Julie Menin. Plurality leader: Julie Menin. Condorcet winner: Julie Menin.",
         "sankey": {
@@ -71911,7 +71911,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD51",
+        "office": "DEMCityCouncilDistrict51",
         "condorcet": "green",
         "notes": "IRV winner: Frank Morano. Plurality leader: Frank Morano. Condorcet winner: Frank Morano.",
         "sankey": {
@@ -71956,7 +71956,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD7",
+        "office": "DEMCityCouncilDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Shaun Abreu. Plurality leader: Shaun Abreu. Condorcet winner: Shaun Abreu.",
         "sankey": {
@@ -72001,7 +72001,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "DEMCityCouncilD8",
+        "office": "DEMCityCouncilDistrict8",
         "condorcet": "green",
         "notes": "IRV winner: Elsie Encarnacion. Plurality leader: Elsie Encarnacion. Condorcet winner: Elsie Encarnacion.",
         "sankey": {
@@ -73929,7 +73929,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "REPCityCouncilD47",
+        "office": "REPCityCouncilDistrict47",
         "condorcet": "green",
         "notes": "IRV winner: George Sarantopoulos. Plurality leader: George Sarantopoulos. Condorcet winner: George Sarantopoulos.",
         "sankey": {
@@ -73967,7 +73967,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "REPCityCouncilD48",
+        "office": "REPCityCouncilDistrict48",
         "condorcet": "green",
         "notes": "IRV winner: Inna Vernikov. Plurality leader: Inna Vernikov. Condorcet winner: Inna Vernikov.",
         "sankey": {
@@ -74005,7 +74005,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "REPCityCouncilD51",
+        "office": "REPCityCouncilDistrict51",
         "condorcet": "green",
         "notes": "IRV winner: Frank Morano. Plurality leader: Frank Morano. Condorcet winner: Frank Morano.",
         "sankey": {
@@ -82872,7 +82872,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD1",
+        "office": "CityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Dan Kalb. Plurality leader: Dan Kalb. Condorcet winner: Dan Kalb.",
         "sankey": {
@@ -82917,7 +82917,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD3",
+        "office": "CityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Carroll Fife. Plurality leader: Carroll Fife. Condorcet winner: Carroll Fife.",
         "sankey": {
@@ -83180,7 +83180,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD5",
+        "office": "CityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Noel Gallo. Plurality leader: Noel Gallo. Condorcet winner: Noel Gallo.",
         "sankey": {
@@ -83225,7 +83225,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD7",
+        "office": "CityCouncilDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Treva Reid. Plurality leader: Treva Reid. Condorcet winner: Treva Reid.",
         "sankey": {
@@ -85496,7 +85496,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "SchoolBoardD2",
+        "office": "SchoolBoardDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Jennifer Brouhard. Plurality leader: Jennifer Brouhard. Condorcet winner: Jennifer Brouhard.",
         "sankey": {
@@ -85595,7 +85595,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "SchoolBoardD4",
+        "office": "SchoolBoardDistrict4",
         "condorcet": "purple",
         "notes": "No Condorcet winner found from 26502 ballots and 3 candidates. Pairwise preference ratios: Mike Hutchinson over others -> Nick Resnick:50.6%, Pecolia Manigo:49.9%; Nick Resnick over others -> Mike Hutchinson:49.4%, Pecolia Manigo:51.2%; Pecolia Manigo over others -> Mike Hutchinson:50.1%, Nick Resnick:48.8%.",
         "sankey": {
@@ -85720,7 +85720,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "SchoolBoardD6",
+        "office": "SchoolBoardDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Valarie Bachelor. Plurality leader: Valarie Bachelor. Condorcet winner: Valarie Bachelor.",
         "sankey": {
@@ -86887,7 +86887,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD1",
+        "office": "CityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Zac Unger. Plurality leader: Zac Unger. Condorcet winner: Zac Unger.",
         "sankey": {
@@ -86932,7 +86932,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD3",
+        "office": "CityCouncilDistrict3",
         "condorcet": "green",
         "notes": "IRV winner: Carroll Fife. Plurality leader: Carroll Fife. Condorcet winner: Carroll Fife.",
         "sankey": {
@@ -87270,7 +87270,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD5",
+        "office": "CityCouncilDistrict5",
         "condorcet": "green",
         "notes": "IRV winner: Noel Gallo. Plurality leader: Noel Gallo. Condorcet winner: Noel Gallo.",
         "sankey": {
@@ -87315,7 +87315,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "CityCouncilD7",
+        "office": "CityCouncilDistrict7",
         "condorcet": "green",
         "notes": "IRV winner: Ken Houston. Plurality leader: Ken Houston. Condorcet winner: Ken Houston.",
         "sankey": {
@@ -87648,7 +87648,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "CityCouncilD2",
+        "office": "CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Charlene Wang. Plurality leader: Charlene Wang. Condorcet winner: Charlene Wang.",
         "sankey": {
@@ -90155,8 +90155,8 @@ window.JURISDICTIONS = [
               "stage": 1
             },
             {
-              "id": "R1:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R1:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 1
             },
             {
@@ -90260,8 +90260,8 @@ window.JURISDICTIONS = [
               "stage": 2
             },
             {
-              "id": "R2:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R2:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 2
             },
             {
@@ -90365,8 +90365,8 @@ window.JURISDICTIONS = [
               "stage": 3
             },
             {
-              "id": "R3:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R3:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 3
             },
             {
@@ -90460,8 +90460,8 @@ window.JURISDICTIONS = [
               "stage": 4
             },
             {
-              "id": "R4:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R4:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 4
             },
             {
@@ -90555,8 +90555,8 @@ window.JURISDICTIONS = [
               "stage": 5
             },
             {
-              "id": "R5:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R5:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 5
             },
             {
@@ -90645,8 +90645,8 @@ window.JURISDICTIONS = [
               "stage": 6
             },
             {
-              "id": "R6:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R6:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 6
             },
             {
@@ -90730,8 +90730,8 @@ window.JURISDICTIONS = [
               "stage": 7
             },
             {
-              "id": "R7:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R7:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 7
             },
             {
@@ -90805,8 +90805,8 @@ window.JURISDICTIONS = [
               "stage": 8
             },
             {
-              "id": "R8:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R8:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 8
             },
             {
@@ -90875,8 +90875,8 @@ window.JURISDICTIONS = [
               "stage": 9
             },
             {
-              "id": "R9:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R9:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 9
             },
             {
@@ -90945,8 +90945,8 @@ window.JURISDICTIONS = [
               "stage": 10
             },
             {
-              "id": "R10:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R10:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 10
             },
             {
@@ -91010,8 +91010,8 @@ window.JURISDICTIONS = [
               "stage": 11
             },
             {
-              "id": "R11:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R11:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 11
             },
             {
@@ -91065,8 +91065,8 @@ window.JURISDICTIONS = [
               "stage": 12
             },
             {
-              "id": "R12:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R12:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 12
             },
             {
@@ -91120,8 +91120,8 @@ window.JURISDICTIONS = [
               "stage": 13
             },
             {
-              "id": "R13:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R13:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 13
             },
             {
@@ -91170,8 +91170,8 @@ window.JURISDICTIONS = [
               "stage": 14
             },
             {
-              "id": "R14:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R14:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 14
             },
             {
@@ -91215,8 +91215,8 @@ window.JURISDICTIONS = [
               "stage": 15
             },
             {
-              "id": "R15:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R15:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 15
             },
             {
@@ -91250,8 +91250,8 @@ window.JURISDICTIONS = [
               "stage": 16
             },
             {
-              "id": "R16:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R16:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 16
             },
             {
@@ -91280,8 +91280,8 @@ window.JURISDICTIONS = [
               "stage": 17
             },
             {
-              "id": "R17:Liv..Viva..Osthus",
-              "name": "Liv..Viva..Osthus",
+              "id": "R17:Liv \"Viva\" Osthus",
+              "name": "Liv \"Viva\" Osthus",
               "stage": 17
             },
             {
@@ -91387,8 +91387,8 @@ window.JURISDICTIONS = [
               "value": 104848
             },
             {
-              "source": "R10:Liv..Viva..Osthus",
-              "target": "R11:Liv..Viva..Osthus",
+              "source": "R10:Liv \"Viva\" Osthus",
+              "target": "R11:Liv \"Viva\" Osthus",
               "value": 20750
             },
             {
@@ -91428,7 +91428,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R10:Michael.Hayes",
-              "target": "R11:Liv..Viva..Osthus",
+              "target": "R11:Liv \"Viva\" Osthus",
               "value": 109
             },
             {
@@ -91503,7 +91503,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R11:Alexander.Landry.Neely",
-              "target": "R12:Liv..Viva..Osthus",
+              "target": "R12:Liv \"Viva\" Osthus",
               "value": 482
             },
             {
@@ -91557,8 +91557,8 @@ window.JURISDICTIONS = [
               "value": 105179
             },
             {
-              "source": "R11:Liv..Viva..Osthus",
-              "target": "R12:Liv..Viva..Osthus",
+              "source": "R11:Liv \"Viva\" Osthus",
+              "target": "R12:Liv \"Viva\" Osthus",
               "value": 20859
             },
             {
@@ -91612,8 +91612,8 @@ window.JURISDICTIONS = [
               "value": 105497
             },
             {
-              "source": "R12:Liv..Viva..Osthus",
-              "target": "R13:Liv..Viva..Osthus",
+              "source": "R12:Liv \"Viva\" Osthus",
+              "target": "R13:Liv \"Viva\" Osthus",
               "value": 21341
             },
             {
@@ -91643,7 +91643,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R12:Martin.Ward",
-              "target": "R13:Liv..Viva..Osthus",
+              "target": "R13:Liv \"Viva\" Osthus",
               "value": 143
             },
             {
@@ -91712,8 +91712,8 @@ window.JURISDICTIONS = [
               "value": 105842
             },
             {
-              "source": "R13:Liv..Viva..Osthus",
-              "target": "R14:Liv..Viva..Osthus",
+              "source": "R13:Liv \"Viva\" Osthus",
+              "target": "R14:Liv \"Viva\" Osthus",
               "value": 21484
             },
             {
@@ -91743,7 +91743,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R13:Michael.O. Callaghan",
-              "target": "R14:Liv..Viva..Osthus",
+              "target": "R14:Liv \"Viva\" Osthus",
               "value": 519
             },
             {
@@ -91802,8 +91802,8 @@ window.JURISDICTIONS = [
               "value": 106345
             },
             {
-              "source": "R14:Liv..Viva..Osthus",
-              "target": "R15:Liv..Viva..Osthus",
+              "source": "R14:Liv \"Viva\" Osthus",
+              "target": "R15:Liv \"Viva\" Osthus",
               "value": 22003
             },
             {
@@ -91843,7 +91843,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R14:Sharon.Nasset",
-              "target": "R15:Liv..Viva..Osthus",
+              "target": "R15:Liv \"Viva\" Osthus",
               "value": 351
             },
             {
@@ -91893,7 +91893,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R15:Josh.Leake",
-              "target": "R16:Liv..Viva..Osthus",
+              "target": "R16:Liv \"Viva\" Osthus",
               "value": 364
             },
             {
@@ -91912,8 +91912,8 @@ window.JURISDICTIONS = [
               "value": 106766
             },
             {
-              "source": "R15:Liv..Viva..Osthus",
-              "target": "R16:Liv..Viva..Osthus",
+              "source": "R15:Liv \"Viva\" Osthus",
+              "target": "R16:Liv \"Viva\" Osthus",
               "value": 22354
             },
             {
@@ -91948,7 +91948,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R16:Durrell.Kinsey.Bey",
-              "target": "R17:Liv..Viva..Osthus",
+              "target": "R17:Liv \"Viva\" Osthus",
               "value": 866
             },
             {
@@ -91972,8 +91972,8 @@ window.JURISDICTIONS = [
               "value": 107440
             },
             {
-              "source": "R16:Liv..Viva..Osthus",
-              "target": "R17:Liv..Viva..Osthus",
+              "source": "R16:Liv \"Viva\" Osthus",
+              "target": "R17:Liv \"Viva\" Osthus",
               "value": 22718
             },
             {
@@ -92002,27 +92002,27 @@ window.JURISDICTIONS = [
               "value": 108259
             },
             {
-              "source": "R17:Liv..Viva..Osthus",
+              "source": "R17:Liv \"Viva\" Osthus",
               "target": "R18:Carmen.Rubio",
               "value": 8377
             },
             {
-              "source": "R17:Liv..Viva..Osthus",
+              "source": "R17:Liv \"Viva\" Osthus",
               "target": "R18:Exhausted",
               "value": 3905
             },
             {
-              "source": "R17:Liv..Viva..Osthus",
+              "source": "R17:Liv \"Viva\" Osthus",
               "target": "R18:Keith.Wilson",
               "value": 7297
             },
             {
-              "source": "R17:Liv..Viva..Osthus",
+              "source": "R17:Liv \"Viva\" Osthus",
               "target": "R18:Mingus.Mapps",
               "value": 2858
             },
             {
-              "source": "R17:Liv..Viva..Osthus",
+              "source": "R17:Liv \"Viva\" Osthus",
               "target": "R18:Rene.Gonzalez",
               "value": 1147
             },
@@ -92147,8 +92147,8 @@ window.JURISDICTIONS = [
               "value": 104389
             },
             {
-              "source": "R1:Liv..Viva..Osthus",
-              "target": "R2:Liv..Viva..Osthus",
+              "source": "R1:Liv \"Viva\" Osthus",
+              "target": "R2:Liv \"Viva\" Osthus",
               "value": 20188
             },
             {
@@ -92247,8 +92247,8 @@ window.JURISDICTIONS = [
               "value": 104389
             },
             {
-              "source": "R2:Liv..Viva..Osthus",
-              "target": "R3:Liv..Viva..Osthus",
+              "source": "R2:Liv \"Viva\" Osthus",
+              "target": "R3:Liv \"Viva\" Osthus",
               "value": 20188
             },
             {
@@ -92308,7 +92308,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R2:Michael.Necula",
-              "target": "R3:Liv..Viva..Osthus",
+              "target": "R3:Liv \"Viva\" Osthus",
               "value": 6
             },
             {
@@ -92463,7 +92463,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R3:James.Atkinson.IV",
-              "target": "R4:Liv..Viva..Osthus",
+              "target": "R4:Liv \"Viva\" Osthus",
               "value": 46
             },
             {
@@ -92527,8 +92527,8 @@ window.JURISDICTIONS = [
               "value": 104410
             },
             {
-              "source": "R3:Liv..Viva..Osthus",
-              "target": "R4:Liv..Viva..Osthus",
+              "source": "R3:Liv \"Viva\" Osthus",
+              "target": "R4:Liv \"Viva\" Osthus",
               "value": 20194
             },
             {
@@ -92622,8 +92622,8 @@ window.JURISDICTIONS = [
               "value": 104453
             },
             {
-              "source": "R4:Liv..Viva..Osthus",
-              "target": "R5:Liv..Viva..Osthus",
+              "source": "R4:Liv \"Viva\" Osthus",
+              "target": "R5:Liv \"Viva\" Osthus",
               "value": 20240
             },
             {
@@ -92708,7 +92708,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R4:Uncertified.Write.In",
-              "target": "R5:Liv..Viva..Osthus",
+              "target": "R5:Liv \"Viva\" Osthus",
               "value": 35
             },
             {
@@ -92802,8 +92802,8 @@ window.JURISDICTIONS = [
               "value": 104485
             },
             {
-              "source": "R5:Liv..Viva..Osthus",
-              "target": "R6:Liv..Viva..Osthus",
+              "source": "R5:Liv \"Viva\" Osthus",
+              "target": "R6:Liv \"Viva\" Osthus",
               "value": 20275
             },
             {
@@ -92888,7 +92888,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R5:Yao.Jun.He",
-              "target": "R6:Liv..Viva..Osthus",
+              "target": "R6:Liv \"Viva\" Osthus",
               "value": 54
             },
             {
@@ -92972,8 +92972,8 @@ window.JURISDICTIONS = [
               "value": 104526
             },
             {
-              "source": "R6:Liv..Viva..Osthus",
-              "target": "R7:Liv..Viva..Osthus",
+              "source": "R6:Liv \"Viva\" Osthus",
+              "target": "R7:Liv \"Viva\" Osthus",
               "value": 20329
             },
             {
@@ -93043,7 +93043,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R6:Saadiq.Ali",
-              "target": "R7:Liv..Viva..Osthus",
+              "target": "R7:Liv \"Viva\" Osthus",
               "value": 64
             },
             {
@@ -93143,7 +93143,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R7:Dustin.Witherspoon",
-              "target": "R8:Liv..Viva..Osthus",
+              "target": "R8:Liv \"Viva\" Osthus",
               "value": 53
             },
             {
@@ -93202,8 +93202,8 @@ window.JURISDICTIONS = [
               "value": 104565
             },
             {
-              "source": "R7:Liv..Viva..Osthus",
-              "target": "R8:Liv..Viva..Osthus",
+              "source": "R7:Liv \"Viva\" Osthus",
+              "target": "R8:Liv \"Viva\" Osthus",
               "value": 20393
             },
             {
@@ -93293,7 +93293,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R8:James.Macdonald",
-              "target": "R9:Liv..Viva..Osthus",
+              "target": "R9:Liv \"Viva\" Osthus",
               "value": 33
             },
             {
@@ -93342,8 +93342,8 @@ window.JURISDICTIONS = [
               "value": 104662
             },
             {
-              "source": "R8:Liv..Viva..Osthus",
-              "target": "R9:Liv..Viva..Osthus",
+              "source": "R8:Liv \"Viva\" Osthus",
+              "target": "R9:Liv \"Viva\" Osthus",
               "value": 20446
             },
             {
@@ -93412,8 +93412,8 @@ window.JURISDICTIONS = [
               "value": 104754
             },
             {
-              "source": "R9:Liv..Viva..Osthus",
-              "target": "R10:Liv..Viva..Osthus",
+              "source": "R9:Liv \"Viva\" Osthus",
+              "target": "R10:Liv \"Viva\" Osthus",
               "value": 20479
             },
             {
@@ -93478,7 +93478,7 @@ window.JURISDICTIONS = [
             },
             {
               "source": "R9:Shei'Meka (BeUtee) As-Salaam",
-              "target": "R10:Liv..Viva..Osthus",
+              "target": "R10:Liv \"Viva\" Osthus",
               "value": 271
             },
             {
@@ -93525,7 +93525,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.Necula",
@@ -93548,7 +93548,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1041,
                 "Josh.Leake": 2340,
                 "Keith.Wilson": 104389,
-                "Liv..Viva..Osthus": 20188,
+                "Liv \"Viva\" Osthus": 20188,
                 "Martin.Ward": 2064,
                 "Michael.Hayes": 1760,
                 "Michael.Necula": 324,
@@ -93575,7 +93575,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.Necula",
@@ -93597,7 +93597,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1041,
                 "Josh.Leake": 2340,
                 "Keith.Wilson": 104389,
-                "Liv..Viva..Osthus": 20188,
+                "Liv \"Viva\" Osthus": 20188,
                 "Martin.Ward": 2064,
                 "Michael.Hayes": 1760,
                 "Michael.Necula": 324,
@@ -93624,7 +93624,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93645,7 +93645,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1099,
                 "Josh.Leake": 2345,
                 "Keith.Wilson": 104410,
-                "Liv..Viva..Osthus": 20194,
+                "Liv \"Viva\" Osthus": 20194,
                 "Martin.Ward": 2072,
                 "Michael.Hayes": 1768,
                 "Michael.O. Callaghan": 2047,
@@ -93670,7 +93670,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93690,7 +93690,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1130,
                 "Josh.Leake": 2363,
                 "Keith.Wilson": 104453,
-                "Liv..Viva..Osthus": 20240,
+                "Liv \"Viva\" Osthus": 20240,
                 "Martin.Ward": 2079,
                 "Michael.Hayes": 1786,
                 "Michael.O. Callaghan": 2078,
@@ -93715,7 +93715,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93734,7 +93734,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1134,
                 "Josh.Leake": 2368,
                 "Keith.Wilson": 104485,
-                "Liv..Viva..Osthus": 20275,
+                "Liv \"Viva\" Osthus": 20275,
                 "Martin.Ward": 2087,
                 "Michael.Hayes": 1797,
                 "Michael.O. Callaghan": 2085,
@@ -93758,7 +93758,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93776,7 +93776,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1167,
                 "Josh.Leake": 2391,
                 "Keith.Wilson": 104526,
-                "Liv..Viva..Osthus": 20329,
+                "Liv \"Viva\" Osthus": 20329,
                 "Martin.Ward": 2108,
                 "Michael.Hayes": 1826,
                 "Michael.O. Callaghan": 2121,
@@ -93799,7 +93799,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93816,7 +93816,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1192,
                 "Josh.Leake": 2406,
                 "Keith.Wilson": 104565,
-                "Liv..Viva..Osthus": 20393,
+                "Liv \"Viva\" Osthus": 20393,
                 "Martin.Ward": 2132,
                 "Michael.Hayes": 1841,
                 "Michael.O. Callaghan": 2144,
@@ -93837,7 +93837,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93853,7 +93853,7 @@ window.JURISDICTIONS = [
                 "James.Macdonald": 1280,
                 "Josh.Leake": 2426,
                 "Keith.Wilson": 104662,
-                "Liv..Viva..Osthus": 20446,
+                "Liv \"Viva\" Osthus": 20446,
                 "Martin.Ward": 2177,
                 "Michael.Hayes": 1870,
                 "Michael.O. Callaghan": 2207,
@@ -93873,7 +93873,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93888,7 +93888,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 2913,
                 "Josh.Leake": 2502,
                 "Keith.Wilson": 104754,
-                "Liv..Viva..Osthus": 20479,
+                "Liv \"Viva\" Osthus": 20479,
                 "Martin.Ward": 2233,
                 "Michael.Hayes": 1969,
                 "Michael.O. Callaghan": 2296,
@@ -93908,7 +93908,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.Hayes",
                 "Michael.O. Callaghan",
@@ -93922,7 +93922,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3090,
                 "Josh.Leake": 2548,
                 "Keith.Wilson": 104848,
-                "Liv..Viva..Osthus": 20750,
+                "Liv \"Viva\" Osthus": 20750,
                 "Martin.Ward": 2251,
                 "Michael.Hayes": 2014,
                 "Michael.O. Callaghan": 2345,
@@ -93941,7 +93941,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.O. Callaghan",
                 "Mingus.Mapps",
@@ -93954,7 +93954,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3138,
                 "Josh.Leake": 2700,
                 "Keith.Wilson": 105179,
-                "Liv..Viva..Osthus": 20859,
+                "Liv \"Viva\" Osthus": 20859,
                 "Martin.Ward": 2310,
                 "Michael.O. Callaghan": 2475,
                 "Mingus.Mapps": 40426,
@@ -93971,7 +93971,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Martin.Ward",
                 "Michael.O. Callaghan",
                 "Mingus.Mapps",
@@ -93983,7 +93983,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3220,
                 "Josh.Leake": 2808,
                 "Keith.Wilson": 105497,
-                "Liv..Viva..Osthus": 21341,
+                "Liv \"Viva\" Osthus": 21341,
                 "Martin.Ward": 2376,
                 "Michael.O. Callaghan": 2638,
                 "Mingus.Mapps": 40625,
@@ -94000,7 +94000,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Michael.O. Callaghan",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
@@ -94011,7 +94011,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3306,
                 "Josh.Leake": 2887,
                 "Keith.Wilson": 105842,
-                "Liv..Viva..Osthus": 21484,
+                "Liv \"Viva\" Osthus": 21484,
                 "Michael.O. Callaghan": 2823,
                 "Mingus.Mapps": 40755,
                 "Rene.Gonzalez": 56628,
@@ -94027,7 +94027,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Mingus.Mapps",
                 "Rene.Gonzalez",
                 "Sharon.Nasset"
@@ -94037,7 +94037,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3495,
                 "Josh.Leake": 3071,
                 "Keith.Wilson": 106345,
-                "Liv..Viva..Osthus": 22003,
+                "Liv \"Viva\" Osthus": 22003,
                 "Mingus.Mapps": 40967,
                 "Rene.Gonzalez": 56859,
                 "Sharon.Nasset": 3046
@@ -94052,7 +94052,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey",
                 "Josh.Leake",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Mingus.Mapps",
                 "Rene.Gonzalez"
               ],
@@ -94061,7 +94061,7 @@ window.JURISDICTIONS = [
                 "Durrell.Kinsey.Bey": 3591,
                 "Josh.Leake": 3292,
                 "Keith.Wilson": 106766,
-                "Liv..Viva..Osthus": 22354,
+                "Liv \"Viva\" Osthus": 22354,
                 "Mingus.Mapps": 41401,
                 "Rene.Gonzalez": 57324
               },
@@ -94074,7 +94074,7 @@ window.JURISDICTIONS = [
                 "Carmen.Rubio",
                 "Durrell.Kinsey.Bey",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Mingus.Mapps",
                 "Rene.Gonzalez"
               ],
@@ -94082,7 +94082,7 @@ window.JURISDICTIONS = [
                 "Carmen.Rubio": 71561,
                 "Durrell.Kinsey.Bey": 3681,
                 "Keith.Wilson": 107440,
-                "Liv..Viva..Osthus": 22718,
+                "Liv \"Viva\" Osthus": 22718,
                 "Mingus.Mapps": 41938,
                 "Rene.Gonzalez": 57701
               },
@@ -94094,19 +94094,19 @@ window.JURISDICTIONS = [
               "activeCandidates": [
                 "Carmen.Rubio",
                 "Keith.Wilson",
-                "Liv..Viva..Osthus",
+                "Liv \"Viva\" Osthus",
                 "Mingus.Mapps",
                 "Rene.Gonzalez"
               ],
               "tallies": {
                 "Carmen.Rubio": 72190,
                 "Keith.Wilson": 108259,
-                "Liv..Viva..Osthus": 23584,
+                "Liv \"Viva\" Osthus": 23584,
                 "Mingus.Mapps": 42298,
                 "Rene.Gonzalez": 57958
               },
               "exhausted": 5674,
-              "eliminated": "Liv..Viva..Osthus"
+              "eliminated": "Liv \"Viva\" Osthus"
             },
             {
               "stage": 18,
@@ -94206,7 +94206,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "CityCouncilD1",
+        "office": "CityCouncilDistrict1",
         "condorcet": "green",
         "notes": "IRV winner: Brad Waller. Plurality leader: Brad Waller. Condorcet winner: Brad Waller.",
         "sankey": {
@@ -94305,7 +94305,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "CityCouncilD2",
+        "office": "CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Chadwick Castle. Plurality leader: Chadwick Castle. Condorcet winner: Chadwick Castle.",
         "sankey": {
@@ -94343,7 +94343,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2025,
-        "office": "CityCouncilD4",
+        "office": "CityCouncilDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Zein Obagi Jr. Plurality leader: Zein Obagi Jr. Condorcet winner: Zein Obagi Jr.",
         "sankey": {
@@ -94669,7 +94669,7 @@ window.JURISDICTIONS = [
     "elections": [
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict1",
+        "office": "Board of Supervisors District1",
         "condorcet": "green",
         "notes": "IRV winner: Jake McGoldrick. Plurality leader: Jake McGoldrick. Condorcet winner: Jake McGoldrick.",
         "sankey": {
@@ -95198,7 +95198,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict11",
+        "office": "Board of Supervisors District11",
         "condorcet": "green",
         "notes": "IRV winner: Gerardo Sandoval. Plurality leader: Gerardo Sandoval. Condorcet winner: Gerardo Sandoval.",
         "sankey": {
@@ -95877,7 +95877,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict2",
+        "office": "Board of Supervisors District2",
         "condorcet": "green",
         "notes": "IRV winner: Michela Alioto-pier. Plurality leader: Michela Alioto-pier. Condorcet winner: Michela Alioto-pier.",
         "sankey": {
@@ -95936,7 +95936,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict3",
+        "office": "Board of Supervisors District3",
         "condorcet": "green",
         "notes": "IRV winner: Arron Peskin. Plurality leader: Arron Peskin. Condorcet winner: Arron Peskin.",
         "sankey": {
@@ -95988,7 +95988,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict5",
+        "office": "Board of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: Ross Mirkarimi. Plurality leader: Ross Mirkarimi. Condorcet winner: Ross Mirkarimi.",
         "sankey": {
@@ -100464,7 +100464,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict7",
+        "office": "Board of Supervisors District7",
         "condorcet": "green",
         "notes": "IRV winner: Sean R. Elsbernd. Plurality leader: Sean R. Elsbernd. Condorcet winner: Sean R. Elsbernd.",
         "sankey": {
@@ -102148,7 +102148,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2004,
-        "office": "BoardofSupervisorsDistrict9",
+        "office": "Board of Supervisors District9",
         "condorcet": "green",
         "notes": "IRV winner: Tom Ammiano. Plurality leader: Tom Ammiano. Condorcet winner: Tom Ammiano.",
         "sankey": {
@@ -102447,7 +102447,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2006,
-        "office": "BoardofSupervisorsDistrict10",
+        "office": "Board of Supervisors District10",
         "condorcet": "green",
         "notes": "IRV winner: Sophie Maxwell. Plurality leader: Sophie Maxwell. Condorcet winner: Sophie Maxwell.",
         "sankey": {
@@ -102520,7 +102520,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2006,
-        "office": "BoardofSupervisorsDistrict2",
+        "office": "Board of Supervisors District2",
         "condorcet": "green",
         "notes": "IRV winner: Michela Alioto-pier. Plurality leader: Michela Alioto-pier. Condorcet winner: Michela Alioto-pier.",
         "sankey": {
@@ -102558,7 +102558,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2006,
-        "office": "BoardofSupervisorsDistrict4",
+        "office": "Board of Supervisors District4",
         "condorcet": "green",
         "notes": "IRV winner: Ed Jew. Plurality leader: Ed Jew. Condorcet winner: Ed Jew.",
         "sankey": {
@@ -102954,7 +102954,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2006,
-        "office": "BoardofSupervisorsDistrict6",
+        "office": "Board of Supervisors District6",
         "condorcet": "green",
         "notes": "IRV winner: Chris Daly. Plurality leader: Chris Daly. Condorcet winner: Chris Daly.",
         "sankey": {
@@ -103500,7 +103500,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2006,
-        "office": "BoardofSupervisorsDistrict8",
+        "office": "Board of Supervisors District8",
         "condorcet": "green",
         "notes": "IRV winner: Bevan Dufty. Plurality leader: Bevan Dufty. Condorcet winner: Bevan Dufty.",
         "sankey": {
@@ -103653,7 +103653,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict1",
+        "office": "Board of Supervisors District1",
         "condorcet": "green",
         "notes": "IRV winner: Eric Mar. Plurality leader: Eric Mar. Condorcet winner: Eric Mar.",
         "sankey": {
@@ -104499,7 +104499,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict11",
+        "office": "Board of Supervisors District11",
         "condorcet": "green",
         "notes": "IRV winner: John Avalos. Plurality leader: John Avalos. Condorcet winner: John Avalos.",
         "sankey": {
@@ -105300,7 +105300,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict3",
+        "office": "Board of Supervisors District3",
         "condorcet": "green",
         "notes": "IRV winner: David Chiu. Plurality leader: David Chiu. Condorcet winner: David Chiu.",
         "sankey": {
@@ -106146,7 +106146,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict4",
+        "office": "Board of Supervisors District4",
         "condorcet": "green",
         "notes": "IRV winner: Carmen Chu. Plurality leader: Carmen Chu. Condorcet winner: Carmen Chu.",
         "sankey": {
@@ -106191,7 +106191,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict5",
+        "office": "Board of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: Ross Mirkarimi. Plurality leader: Ross Mirkarimi. Condorcet winner: Ross Mirkarimi.",
         "sankey": {
@@ -106236,7 +106236,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict7",
+        "office": "Board of Supervisors District7",
         "condorcet": "green",
         "notes": "IRV winner: Sean R. Elsbernd. Plurality leader: Sean R. Elsbernd. Condorcet winner: Sean R. Elsbernd.",
         "sankey": {
@@ -106281,7 +106281,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2008,
-        "office": "BoardofSupervisorsDistrict9",
+        "office": "Board of Supervisors District9",
         "condorcet": "green",
         "notes": "IRV winner: David Campos. Plurality leader: David Campos. Condorcet winner: David Campos.",
         "sankey": {
@@ -106810,7 +106810,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2010,
-        "office": "BoardofSupervisorsDistrict10",
+        "office": "Board of Supervisors District10",
         "condorcet": "blue",
         "notes": "IRV winner: Malia Cohen. Plurality leader: Lynette Sweet. Condorcet winner: Malia Cohen.",
         "sankey": {
@@ -110961,7 +110961,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2010,
-        "office": "BoardofSupervisorsDistrict2",
+        "office": "Board of Supervisors District2",
         "condorcet": "blue",
         "notes": "IRV winner: Mark Farrell. Plurality leader: Janet Reilly. Condorcet winner: Mark Farrell.",
         "sankey": {
@@ -111357,7 +111357,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2010,
-        "office": "BoardofSupervisorsDistrict6",
+        "office": "Board of Supervisors District6",
         "condorcet": "green",
         "notes": "IRV winner: Jane Kim. Plurality leader: Jane Kim. Condorcet winner: Jane Kim.",
         "sankey": {
@@ -113293,7 +113293,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2010,
-        "office": "BoardofSupervisorsDistrict8",
+        "office": "Board of Supervisors District8",
         "condorcet": "green",
         "notes": "IRV winner: Scott Wiener. Plurality leader: Scott Wiener. Condorcet winner: Scott Wiener.",
         "sankey": {
@@ -116426,7 +116426,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2012,
-        "office": "BoardofSupervisorsDistrict5",
+        "office": "Board of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: London Breed. Plurality leader: London Breed. Condorcet winner: London Breed.",
         "sankey": {
@@ -117105,7 +117105,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2012,
-        "office": "BoardofSupervisorsDistrict7",
+        "office": "Board of Supervisors District7",
         "condorcet": "green",
         "notes": "IRV winner: Norman Yee. Plurality leader: Norman Yee. Condorcet winner: Norman Yee.",
         "sankey": {
@@ -117951,7 +117951,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2014,
-        "office": "BoardofSupervisorsDistrict10",
+        "office": "Board of Supervisors District10",
         "condorcet": "green",
         "notes": "IRV winner: Malia Cohen. Plurality leader: Malia Cohen. Condorcet winner: Malia Cohen.",
         "sankey": {
@@ -118173,7 +118173,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2015,
-        "office": "BoardofSupervisorsDistrict3",
+        "office": "Board of Supervisors District3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -118329,7 +118329,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict1",
+        "office": "Board of Supervisors District1",
         "condorcet": "green",
         "notes": "IRV winner: Sandra Lee Fewer. Plurality leader: Sandra Lee Fewer. Condorcet winner: Sandra Lee Fewer.",
         "sankey": {
@@ -119359,7 +119359,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict11",
+        "office": "Board of Supervisors District11",
         "condorcet": "green",
         "notes": "IRV winner: Ahsha Safai. Plurality leader: Ahsha Safai. Condorcet winner: Ahsha Safai.",
         "sankey": {
@@ -119639,7 +119639,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict3",
+        "office": "Board of Supervisors District3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -119677,7 +119677,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict5",
+        "office": "Board of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: London Breed. Plurality leader: London Breed. Condorcet winner: London Breed.",
         "sankey": {
@@ -119715,7 +119715,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict7",
+        "office": "Board of Supervisors District7",
         "condorcet": "green",
         "notes": "IRV winner: Norman Yee. Plurality leader: Norman Yee. Condorcet winner: Norman Yee.",
         "sankey": {
@@ -119995,7 +119995,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2016,
-        "office": "BoardofSupervisorsDistrict9",
+        "office": "Board of Supervisors District9",
         "condorcet": "green",
         "notes": "IRV winner: Hillary Ronen. Plurality leader: Hillary Ronen. Condorcet winner: Hillary Ronen.",
         "sankey": {
@@ -120085,7 +120085,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict10",
+        "office": "Board of Supervisors District10",
         "condorcet": "green",
         "notes": "IRV winner: Shamann Walton. Plurality leader: Shamann Walton. Condorcet winner: Shamann Walton.",
         "sankey": {
@@ -120481,7 +120481,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict2",
+        "office": "Board of Supervisors District2",
         "condorcet": "green",
         "notes": "IRV winner: Catherine Stefani. Plurality leader: Catherine Stefani. Condorcet winner: Catherine Stefani.",
         "sankey": {
@@ -120662,7 +120662,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict4",
+        "office": "Board of Supervisors District4",
         "condorcet": "green",
         "notes": "IRV winner: Gordon Mar. Plurality leader: Gordon Mar. Condorcet winner: Gordon Mar.",
         "sankey": {
@@ -121341,7 +121341,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict6",
+        "office": "Board of Supervisors District6",
         "condorcet": "green",
         "notes": "IRV winner: Matt Haney. Plurality leader: Matt Haney. Condorcet winner: Matt Haney.",
         "sankey": {
@@ -121386,7 +121386,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict8",
+        "office": "Board of Supervisors District8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -121431,7 +121431,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2018,
-        "office": "BoardofSupervisorsDistrict8",
+        "office": "Board of Supervisors District8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -122179,7 +122179,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2019,
-        "office": "BoardofSupervisorsDistrict5",
+        "office": "Board of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: Dean Preston. Plurality leader: Dean Preston. Condorcet winner: Dean Preston.",
         "sankey": {
@@ -122738,7 +122738,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD1",
+        "office": "Board Of Supervisors District1",
         "condorcet": "green",
         "notes": "IRV winner: Connie Chan. Plurality leader: Connie Chan. Condorcet winner: Connie Chan.",
         "sankey": {
@@ -123267,7 +123267,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD11",
+        "office": "Board Of Supervisors District11",
         "condorcet": "green",
         "notes": "IRV winner: Ahsha Safai. Plurality leader: Ahsha Safai. Condorcet winner: Ahsha Safai.",
         "sankey": {
@@ -123448,7 +123448,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD3",
+        "office": "Board Of Supervisors District3",
         "condorcet": "green",
         "notes": "IRV winner: Aaron Peskin. Plurality leader: Aaron Peskin. Condorcet winner: Aaron Peskin.",
         "sankey": {
@@ -123500,7 +123500,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD5",
+        "office": "Board Of Supervisors District5",
         "condorcet": "green",
         "notes": "IRV winner: Dean Preston. Plurality leader: Dean Preston. Condorcet winner: Dean Preston.",
         "sankey": {
@@ -123552,7 +123552,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD7",
+        "office": "Board Of Supervisors District7",
         "condorcet": "blue",
         "notes": "IRV winner: Myrna Melgar. Plurality leader: Joel Engardio. Condorcet winner: Myrna Melgar.",
         "sankey": {
@@ -124081,7 +124081,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "BoardOfSupervisorsD9",
+        "office": "Board Of Supervisors District9",
         "condorcet": "green",
         "notes": "IRV winner: Hillary Ronen. Plurality leader: Hillary Ronen. Condorcet winner: Hillary Ronen.",
         "sankey": {
@@ -124150,7 +124150,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "BoardofSupervisorsD10",
+        "office": "Board of Supervisors District10",
         "condorcet": "green",
         "notes": "IRV winner: Shamann Walton. Plurality leader: Shamann Walton. Condorcet winner: Shamann Walton.",
         "sankey": {
@@ -124188,7 +124188,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "BoardofSupervisorsD2",
+        "office": "Board of Supervisors District2",
         "condorcet": "green",
         "notes": "IRV winner: Catherine Stefani. Plurality leader: Catherine Stefani. Condorcet winner: Catherine Stefani.",
         "sankey": {
@@ -124219,7 +124219,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "BoardofSupervisorsD4",
+        "office": "Board of Supervisors District4",
         "condorcet": "green",
         "notes": "IRV winner: Joel Engardio. Plurality leader: Joel Engardio. Condorcet winner: Joel Engardio.",
         "sankey": {
@@ -124257,7 +124257,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "BoardofSupervisorsD6",
+        "office": "Board of Supervisors District6",
         "condorcet": "green",
         "notes": "IRV winner: Matt Dorsey. Plurality leader: Matt Dorsey. Condorcet winner: Matt Dorsey.",
         "sankey": {
@@ -124309,7 +124309,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2022,
-        "office": "BoardofSupervisorsD8",
+        "office": "Board of Supervisors District8",
         "condorcet": "green",
         "notes": "IRV winner: Rafael Mandelman. Plurality leader: Rafael Mandelman. Condorcet winner: Rafael Mandelman.",
         "sankey": {
@@ -124566,7 +124566,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D1",
+        "office": "Board of Supervisors District 1",
         "condorcet": "green",
         "notes": "IRV winner: Connie Chan. Plurality leader: Connie Chan. Condorcet winner: Connie Chan.",
         "sankey": {
@@ -124846,7 +124846,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D11",
+        "office": "Board of Supervisors District 11",
         "condorcet": "blue",
         "notes": "IRV winner: Chyanne Chen. Plurality leader: Michael Lai. Condorcet winner: Chyanne Chen.",
         "sankey": {
@@ -125375,7 +125375,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D3",
+        "office": "Board of Supervisors District 3",
         "condorcet": "green",
         "notes": "IRV winner: Danny Sauter. Plurality leader: Danny Sauter. Condorcet winner: Danny Sauter.",
         "sankey": {
@@ -125771,7 +125771,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D5",
+        "office": "Board of Supervisors District 5",
         "condorcet": "blue",
         "notes": "IRV winner: Bilal Mahmood. Plurality leader: Dean Preston. Condorcet winner: Bilal Mahmood.",
         "sankey": {
@@ -126051,7 +126051,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D7",
+        "office": "Board of Supervisors District 7",
         "condorcet": "green",
         "notes": "IRV winner: Myrna Melgar. Plurality leader: Myrna Melgar. Condorcet winner: Myrna Melgar.",
         "sankey": {
@@ -126232,7 +126232,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2024,
-        "office": "BoS D9",
+        "office": "Board of Supervisors District 9",
         "condorcet": "green",
         "notes": "IRV winner: Jackie Fielder. Plurality leader: Jackie Fielder. Condorcet winner: Jackie Fielder.",
         "sankey": {
@@ -130527,7 +130527,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD2",
+        "office": "CityCouncilDistrict2",
         "condorcet": "green",
         "notes": "IRV winner: Bryan Azevedo. Plurality leader: Bryan Azevedo. Condorcet winner: Bryan Azevedo.",
         "sankey": {
@@ -130565,7 +130565,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD4",
+        "office": "CityCouncilDistrict4",
         "condorcet": "green",
         "notes": "IRV winner: Fred Simon. Plurality leader: Fred Simon. Condorcet winner: Fred Simon.",
         "sankey": {
@@ -130603,7 +130603,7 @@ window.JURISDICTIONS = [
       },
       {
         "year": 2020,
-        "office": "CityCouncilD6",
+        "office": "CityCouncilDistrict6",
         "condorcet": "green",
         "notes": "IRV winner: Pete Ballew. Plurality leader: Pete Ballew. Condorcet winner: Pete Ballew.",
         "sankey": {

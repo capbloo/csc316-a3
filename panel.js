@@ -211,12 +211,64 @@ function focusCity(point) {
 
 function openAnalysisPanel(jurisdiction) {
   const content = analysisPanel.select(".analysis-content");
-  content.html(buildElectionCardsHtml(jurisdiction));
 
-  content.selectAll(".election-card").on("click", function () {
-    const idx = parseInt(d3.select(this).attr("data-election-index"), 10);
-    openSankeyView(jurisdiction, idx);
-  });
+  if (jurisdiction.isCluster && jurisdiction.clusterMemberJurisdictions?.length) {
+    renderClusterPicker(content, jurisdiction);
+  } else {
+    renderElectionList(content, jurisdiction);
+  }
 
   analysisPanel.classed("open", true);
+}
+
+function renderClusterPicker(content, cluster) {
+  const members = cluster.clusterMemberJurisdictions;
+  const citiesHtml = members.map((m) => {
+    const color = COLORS[m.elections.reduce((best, e) =>
+      PRIORITY[e.condorcet] > PRIORITY[best] ? e.condorcet : best, "green")];
+    return `<button type="button" class="cluster-city-btn" data-city-key="${m.key}">
+      <span class="cluster-city-dot" style="background:${color}"></span>
+      <span class="cluster-city-name">${m.city}</span>
+      <span class="cluster-city-count">${m.elections.length} election${m.elections.length === 1 ? "" : "s"}</span>
+    </button>`;
+  }).join("");
+
+  content.html(`
+    <div class="elections-list-view">
+      <h3 class="jurisdiction-title">${cluster.city}, ${stateName(cluster.state)}</h3>
+      <div class="cluster-city-list">${citiesHtml}</div>
+    </div>
+  `);
+
+  content.selectAll(".cluster-city-btn").on("click", function () {
+    const key = d3.select(this).attr("data-city-key");
+    const member = members.find((m) => m.key === key);
+    if (member) renderElectionList(content, member, () => renderClusterPicker(content, cluster));
+  });
+}
+
+function renderElectionList(content, jurisdiction, onBack = null) {
+  let sort = { mode: "priority", dir: -1 };
+
+  function render() {
+    const backBtn = onBack
+      ? `<button type="button" class="cluster-back-btn">← Back</button>`
+      : "";
+    content.html(`${backBtn}${buildElectionCardsHtml(jurisdiction, sort)}`);
+
+    if (onBack) {
+      content.select(".cluster-back-btn").on("click", onBack);
+    }
+    content.selectAll(".election-card").on("click", function () {
+      const idx = parseInt(d3.select(this).attr("data-election-index"), 10);
+      openSankeyView(jurisdiction, idx);
+    });
+    content.selectAll(".election-sort-btn").on("click", function () {
+      const clicked = d3.select(this).attr("data-sort");
+      sort = { mode: clicked, dir: clicked === sort.mode ? -sort.dir : -1 };
+      render();
+    });
+  }
+
+  render();
 }

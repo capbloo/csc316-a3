@@ -1,0 +1,104 @@
+How Good is Instant Runoff Voting? — Design Write-Up
+
+─────────────────────────────────────────────────────────────────────────
+DESIGN RATIONALE
+─────────────────────────────────────────────────────────────────────────
+
+The central research question is whether Instant Runoff Voting (IRV)
+consistently elects broadly preferred candidates. The Condorcet criterion
+offers a precise test: a "Condorcet winner" is a candidate who would beat
+every other candidate in a head-to-head matchup. IRV can, in principle,
+eliminate that candidate before the final round. The visualization
+classifies every real-world IRV election in the dataset into one of four
+outcomes: (1) IRV and plurality agree on the Condorcet winner (No Change,
+green); (2) IRV elects the Condorcet winner but plurality would not
+(Improvement, blue); (3) IRV eliminates the Condorcet winner (Failure,
+yellow); (4) no Condorcet winner exists due to cyclic preferences (Cycle,
+purple).
+
+Visual encoding. The four categories map to four semantically charged
+colors. Green and blue signal that IRV is working as intended; yellow
+(warning) and purple (anomaly) flag failures. I deliberately avoided a
+gradient: these categories are theoretically distinct, not points on a
+spectrum of "goodness." Each jurisdiction appears as a dot on an Albers
+USA projection — a familiar, area-preserving map for US audiences. Dot
+color is determined by the worst outcome across all elections in that
+jurisdiction, so a city with even one Condorcet failure is marked yellow.
+Dot opacity drops to near-zero for categories the user has filtered out,
+letting the remaining data stay in focus without a full redraw.
+
+Interaction hierarchy. The design moves from overview to detail. The stats
+strip at the top establishes scale (606 elections, 95% green) before the
+user explores. Clicking a dot zooms the map to that city and opens a side
+panel listing elections as cards. Clicking a card opens a fullscreen Sankey
+diagram showing vote flows through each IRV elimination round. This
+three-level hierarchy — map → panel → Sankey — lets casual users get the
+headline story and expert users drill into ballot-level mechanics.
+
+Sankey design choices. The Sankey diagram was the central alternative
+worth considering. Bar charts would only show final-round totals; a table
+of round-by-round tallies would require active reading. The Sankey's link
+widths make vote transfers immediately visible — you can see a small
+candidate's supporters redistributing to a major candidate in one glance.
+I used close-side entry (links enter and exit nodes near their vertical
+source) to reduce visual crossing. Write-in candidates and zero-vote
+candidates are filtered out to keep the diagram legible. For yellow and
+purple elections a second panel appears alongside: a hub-and-spoke layout
+for Condorcet failure cases, and a three-node cycle diagram for preference
+cycles, both showing raw head-to-head vote counts.
+
+Clustering. Several jurisdictions (Bay Area cities, Twin Cities suburbs,
+Utah Valley towns) are geographically close enough to overlap at national
+zoom. Clicking a merged cluster opens a city-picker before showing
+elections, preventing ambiguity about which city's data is displayed.
+
+Alternatives rejected. I considered a choropleth of states colored by
+failure rate, but IRV is adopted city-by-city, not state-by-state, so a
+dot map preserves the correct unit of analysis. I also considered a
+force-directed network of pairwise preferences, but it would be
+unreadable for elections with many candidates and would obscure the
+temporal (round-by-round) structure of IRV.
+
+
+─────────────────────────────────────────────────────────────────────────
+DEVELOPMENT PROCESS
+─────────────────────────────────────────────────────────────────────────
+
+Total development time was approximately 12 hours across research,
+data processing, visualization coding, and design iteration.
+
+The project began with a literature search to find a suitable dataset.
+Claude (Anthropic) assisted in identifying relevant academic sources and
+IRV datasets; every reference was manually verified against the actual
+publication. The primary data source is:
+
+  Otis, Deb. 2022. "Single Winner Ranked Choice Voting CVRs."
+  Harvard Dataverse. https://doi.org/10.7910/DVN/AMK8PJ
+
+This dataset contains cast vote record (CVR) CSV files for 607 real
+ranked-choice elections across 31 US jurisdictions.
+
+I set up the project structure, HTML template, and overall visual
+design myself. Claude and GitHub Copilot wrote the bulk of the
+data-processing pipeline (build_real_data.py) — including the IRV
+simulator, pairwise Condorcet computation, and Sankey node/link
+builder — as well as much of the D3 plumbing (zoom behavior, dot
+rendering, clustering logic, tooltip positioning). I directed this
+work through iterative prompting, reviewed every output, and made
+all design and storytelling decisions: which encodings to use, what
+story to tell, how panels should be structured, and what level of
+detail to expose at each step.
+
+Working this way felt comfortable. It is most similar to pair
+programming with a fast, knowledgeable partner who does not have
+opinions about aesthetics or narrative framing. The most time-
+consuming parts were: (1) iterating on the Sankey layout to handle
+link crossing and close-side entry correctly; (2) designing the
+pairwise winner and cycle panels so that raw vote counts were
+legible without overwhelming the diagram; and (3) the label
+collision-avoidance algorithm for city name placement on the map.
+These required multiple rounds of feedback and adjustment that a
+non-interactive code generator could not short-circuit.
+
+Libraries used: D3.js v7.8.5, d3-sankey v0.12.3, TopoJSON v3.0.2,
+us-atlas v3 (Albers USA state boundaries).

@@ -115,7 +115,10 @@ function updateLegendState() {
 // --- Formatting utilities ---
 
 function formatOfficeLabel(office) {
-  const text = String(office || "");
+  const text = String(office || "")
+    .replace(/\bREP(?![a-z])/g, "Republican Primary, ")
+    .replace(/\bDEM(?![a-z])/g, "Democratic Primary, ")
+    .replace(/\bCON(?![a-z])/g, "Conservative Primary, ");
   return text
     .replace(/([a-z])([A-Z])/g, "$1 $2")
     .replace(/([A-Za-z])(\d)/g, "$1 $2")

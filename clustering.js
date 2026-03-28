@@ -249,6 +249,7 @@ function applyCityClusters(points, zoomK = 1) {
       clickable: true,
       isCluster: true,
       clusterMembers: members.map((member) => member.city),
+      clusterMemberJurisdictions: members,
       clusterMaxDistance,
       clusterThreshold: distanceThreshold,
     });

@@ -550,6 +550,101 @@ header .subtitle a {
   color: var(--text);
 }
 
+.election-sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.cluster-city-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+}
+
+.cluster-city-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 10px 12px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  width: 100%;
+}
+
+.cluster-city-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--text-dim);
+  transform: translateX(2px);
+}
+
+.cluster-city-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.cluster-city-name {
+  flex: 1;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cluster-city-count {
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.cluster-back-btn {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0 0 10px;
+  display: block;
+  transition: color 0.15s;
+}
+
+.cluster-back-btn:hover {
+  color: var(--text);
+}
+
+.election-sort-label {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-right: 2px;
+}
+
+.election-sort-btn {
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: 11px;
+  padding: 2px 8px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.election-sort-btn:hover {
+  color: var(--text);
+  border-color: var(--text-dim);
+}
+
+.election-sort-btn.active {
+  color: var(--text);
+  border-color: var(--text-dim);
+}
+
 .elections-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -666,9 +761,9 @@ header .subtitle a {
 
 .sankey-fs-close {
   background: none;
-  border: 1px solid var(--rule);
+  border: 1px solid #7a2020;
   border-radius: 50%;
-  color: var(--text-dim);
+  color: #c0392b;
   font-size: 18px;
   width: 36px;
   height: 36px;
@@ -681,8 +776,8 @@ header .subtitle a {
 }
 
 .sankey-fs-close:hover {
-  color: var(--text);
-  border-color: var(--text-dim);
+  color: #e05c5c;
+  border-color: #e05c5c;
 }
 
 .sankey-fs-body {

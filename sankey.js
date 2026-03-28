@@ -20,11 +20,27 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
   if (!rawNodes || rawNodes.length === 0) return;
 
   const winnerName = rounds.find((r) => r.winner)?.winner;
-  const stageKeys = [...new Set(rawNodes.map((n) => n.stage))].sort((a, b) => a - b);
-  const numStages = stageKeys[stageKeys.length - 1];
 
   // Rank candidates by first-round vote count (descending); Exhausted always last
   const round1Tallies = rounds.find((r) => r.stage === 1)?.tallies || {};
+
+  // Filter out write-in candidates, 0-vote candidates, and first-round Exhausted node
+  const firstStage = Math.min(...rawNodes.map((n) => n.stage));
+  const isExcluded = (n) =>
+    (n.name !== "Exhausted" && (
+      /write.?in/i.test(n.name) ||
+      rounds.every((r) => !r.tallies?.[n.name] || r.tallies[n.name] === 0)
+    )) ||
+    (n.name === "Exhausted" && n.stage === firstStage);
+  const excludedNodeIds = new Set(rawNodes.filter(isExcluded).map((n) => n.id));
+  const filteredRawNodes = rawNodes.filter((n) => !excludedNodeIds.has(n.id));
+  const filteredRawLinks = rawLinks.filter(
+    (l) => !excludedNodeIds.has(l.source) && !excludedNodeIds.has(l.target)
+  );
+
+  const stageKeys = [...new Set(filteredRawNodes.map((n) => n.stage))].sort((a, b) => a - b);
+  const numStages = stageKeys[stageKeys.length - 1];
+
   const candidateRank = Object.fromEntries(
     Object.entries(round1Tallies)
       .sort(([, a], [, b]) => b - a)
@@ -33,7 +49,7 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
   const getRank = (name) => (name === "Exhausted" ? 9999 : (candidateRank[name] ?? 9998));
 
   // Candidate color palette — sorted by first-round votes descending so top candidates get distinct colors
-  const candidateNames = [...new Set(rawNodes.map((n) => n.name).filter((n) => n !== "Exhausted"))]
+  const candidateNames = [...new Set(filteredRawNodes.map((n) => n.name).filter((n) => n !== "Exhausted"))]
     .sort((a, b) => (round1Tallies[b] || 0) - (round1Tallies[a] || 0));
   const colorPalette = [
     "#4e8ede", "#e07b39", "#5ab56e", "#c45ec4", "#d4a017",
@@ -62,12 +78,12 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
 
   // Build nodes and links for d3-sankey
   const nodeIndexMap = {};
-  const sankeyInputNodes = rawNodes.map((n, i) => {
+  const sankeyInputNodes = filteredRawNodes.map((n, i) => {
     nodeIndexMap[n.id] = i;
     return { id: n.id, name: n.name, stage: n.stage };
   });
 
-  const sankeyInputLinks = rawLinks.map((l) => ({
+  const sankeyInputLinks = filteredRawLinks.map((l) => ({
     source: nodeIndexMap[l.source],
     target: nodeIndexMap[l.target],
     value: l.value,
@@ -202,13 +218,13 @@ function renderSankeyWithLibrary(container, election, widthOverride) {
     .on("mouseenter", function (event, d) {
       d3.select(this).attr("opacity", 1);
       const roundData = rounds.find((r) => r.stage === d.stage);
-      const votes = roundData?.tallies?.[d.name];
-      const roundLabel = d.stage === numStages ? "Final" : `Round ${d.stage}`;
       const isExhaustedNode = d.name === "Exhausted";
+      const votes = isExhaustedNode ? roundData?.exhausted : roundData?.tallies?.[d.name];
+      const roundLabel = d.stage === numStages ? "Final" : `Round ${d.stage}`;
       tooltip
         .html(votes != null
           ? isExhaustedNode
-            ? `<strong>Exhausted: ${d3.format(",d")(votes)} votes</strong><br><span style="font-size:11px;color:var(--text-dim)">Ballots with no remaining ranked candidates — they cannot transfer further.</span>`
+            ? `<strong>Exhausted: ${d3.format(",d")(votes)} votes</strong><br><span style="font-size:12px;color:var(--text-dim)">Ballots with no remaining ranked candidates.</span>`
             : `<strong>${formatPersonName(d.name)}</strong><br>${roundLabel}: ${d3.format(",d")(votes)} votes`
           : `<strong>${formatPersonName(d.name)}</strong>`)
         .style("opacity", 1);
@@ -576,7 +592,7 @@ function renderCondorcetWinnerPanel(container, election) {
     svg.append("text")
       .attr("x", (trunkX + branchEndX) / 2).attr("y", opp.y - 7)
       .attr("text-anchor", "middle").attr("font-size", "10px")
-      .attr("fill", COLORS.yellow).attr("opacity", 0.85)
+      .attr("fill", "var(--text)").attr("opacity", 0.85)
       .text(beatsText);
 
     svg.append("text")
@@ -691,8 +707,8 @@ function renderCondorcetCycle(container, election) {
     const beatsEl = svg.append("text")
       .attr("text-anchor", "middle")
       .attr("font-size", "12px")
-      .attr("fill", COLORS.purple)
-      .attr("opacity", 0.75);
+      .attr("fill", "var(--text)")
+      .attr("opacity", 0.85);
     beatsEl.append("tspan")
       .attr("x", lx).attr("y", ly - (countStr ? 6 : 0))
       .attr("dominant-baseline", "middle")
@@ -839,15 +855,64 @@ function renderPairwiseComparison(container, election) {
   });
 }
 
-function buildElectionCardsHtml(jurisdiction) {
-  const elections = jurisdiction.elections.filter((e) => activeFilters.has(e.condorcet));
-  // Non-green (interesting) results float to the top; relative order preserved within each group
-  const sorted = elections
+function jurisdictionTitle(jurisdiction) {
+  const fullState = stateName(jurisdiction.state);
+  if (jurisdiction.city === fullState) return fullState;
+  return `${jurisdiction.city}, ${fullState}`;
+}
+
+function electionCardPreview(election) {
+  const rounds = election.sankey?.rounds;
+  if (!rounds?.length) return "";
+  const r1 = rounds.find((r) => r.stage === 1);
+  if (!r1) return "";
+  const tallies = r1.tallies || {};
+  const candidates = Object.keys(tallies).filter((n) => !/write.?in/i.test(n) && tallies[n] > 0);
+  const totalVotes = Object.values(tallies).reduce((s, v) => s + v, 0) + (r1.exhausted || 0);
+  const winner = rounds.find((r) => r.winner)?.winner;
+  const parts = [];
+  if (winner) parts.push(`Winner: ${formatPersonName(winner)}`);
+  if (totalVotes) parts.push(`${d3.format(",d")(totalVotes)} votes`);
+  if (candidates.length) parts.push(`${candidates.length} candidate${candidates.length === 1 ? "" : "s"}`);
+  return parts.join(" · ");
+}
+
+function buildElectionCardsHtml(jurisdiction, sort = { mode: "priority", dir: -1 }) {
+  const { mode, dir } = sort;
+  const withIdx = jurisdiction.elections
     .map((election, idx) => ({ election, idx }))
-    .sort((a, b) => {
-      const rank = (c) => PRIORITY[c] ?? 0;
-      return rank(b.election.condorcet) - rank(a.election.condorcet) || a.idx - b.idx;
-    });
+    .filter(({ election }) => activeFilters.has(election.condorcet));
+
+  const naturalOffice = (e) => formatOfficeLabel(e.office);
+  const getVotes = (e) => {
+    const r1 = e.sankey?.rounds?.find((r) => r.stage === 1);
+    return r1 ? Object.values(r1.tallies || {}).reduce((s, v) => s + v, 0) + (r1.exhausted || 0) : 0;
+  };
+  const getCandidates = (e) => {
+    const r1 = e.sankey?.rounds?.find((r) => r.stage === 1);
+    return r1 ? Object.keys(r1.tallies || {}).filter((n) => !/write.?in/i.test(n) && r1.tallies[n] > 0).length : 0;
+  };
+
+  const tiebreak = (a, b) =>
+    naturalOffice(a.election).localeCompare(naturalOffice(b.election), undefined, { numeric: true })
+    || (a.election.year || 0) - (b.election.year || 0);
+
+  const sorted = withIdx.sort((a, b) => {
+    if (mode === "year") {
+      return dir * ((a.election.year || 0) - (b.election.year || 0))
+        || naturalOffice(a.election).localeCompare(naturalOffice(b.election), undefined, { numeric: true });
+    }
+    if (mode === "candidates") {
+      return dir * (getCandidates(a.election) - getCandidates(b.election)) || tiebreak(a, b);
+    }
+    if (mode === "turnout") {
+      return dir * (getVotes(a.election) - getVotes(b.election)) || tiebreak(a, b);
+    }
+    // priority: interesting results first by default (dir=-1 → high priority first)
+    const rank = (c) => PRIORITY[c] ?? 0;
+    return dir * (rank(a.election.condorcet) - rank(b.election.condorcet)) || tiebreak(a, b);
+  });
+
   const cardsHtml = sorted
     .map(
       ({ election, idx }) => `
@@ -860,15 +925,28 @@ function buildElectionCardsHtml(jurisdiction) {
         </div>
       </div>
       <div class="election-card-category">${LABELS[election.condorcet]}</div>
-      <div class="election-card-preview">${election.notes.substring(0, 80)}...</div>
+      <div class="election-card-preview">${electionCardPreview(election)}</div>
     </div>
   `
     )
     .join("");
 
+  const sortModes = [
+    { key: "priority", label: "Condorcet Effects" },
+    { key: "year", label: "Year" },
+    { key: "candidates", label: "# of Candidates" },
+    { key: "turnout", label: "Voter Turnout" },
+  ];
+  const arrow = dir === 1 ? " ↑" : " ↓";
+  const sortBarHtml = `<div class="election-sort-bar"><span class="election-sort-label">Sort by:</span>${sortModes.map((m) => {
+    const isActive = mode === m.key;
+    return `<button type="button" class="election-sort-btn${isActive ? " active" : ""}" data-sort="${m.key}">${m.label}${isActive ? arrow : ""}</button>`;
+  }).join("")}</div>`;
+
   return `
     <div class="elections-list-view">
-      <h3 class="jurisdiction-title">${jurisdiction.city}, ${stateName(jurisdiction.state)}</h3>
+      <h3 class="jurisdiction-title">${jurisdictionTitle(jurisdiction)}</h3>
+      ${sortBarHtml}
       <div class="elections-grid">
         ${cardsHtml}
       </div>
